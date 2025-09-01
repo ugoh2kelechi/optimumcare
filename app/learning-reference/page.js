@@ -20,7 +20,7 @@ export default function LearningReferencePage() {
 									<div className="ref-header text-1 fw-6">Links</div>
 
 									{[
-										{ pub: 'BMC Psychiatry', title: 'Study of user experience of an objective test (QbTest) to aid ADHD assessment and medication management: a multi-methods approach.' },
+										{ pub: 'BMC Psychiatry', title: 'Study of user experience of an objective test (QbTest) to aid ADHD assessment and medication management: a multi-methods approach.', href: 'https://pmc.ncbi.nlm.nih.gov/articles/PMC5301349/' },
 										{ pub: 'CHILD AND ADOLESCENT MENTAL HEALTH', title: 'Innovations in Practice: an objective measure of attention, impulsivity and activity reduces time to confirm attention deficit/hyperactivity disorder diagnosis in children – a completed audit cycle.' },
 										{ pub: 'JOURNAL OF CHILD PSYCHOLOGY AND PSYCHIATRY AND ALLIED DISIPLINES', title: 'The impact of a computerized test of attention and activity (QbTest) on diagnostic decision-making in children and young people with suspected attention deficit hyperactivity disorder: single-blind randomized controlled trial.' },
 										{ pub: 'EAST MIDLANDS ACADEMIC HEALTH NETWORK', title: 'Faster and more cost-effective ADHD diagnosis for children' },
@@ -38,7 +38,13 @@ export default function LearningReferencePage() {
 									].map((item, idx) => (
 										<>
 											<div className="ref-cell text-1" key={`pub-${idx}`}>{item.pub}</div>
-											<div className="ref-cell text-1" key={`title-${idx}`}>{item.title}</div>
+											<div className="ref-cell text-1" key={`title-${idx}`}>
+												{item.href ? (
+													<Link href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</Link>
+												) : (
+													item.title
+												)}
+											</div>
 										</>
 									))}
 								</div>
