@@ -220,10 +220,10 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 						</Link>
 						<ul className="mb-info">
 							<li>
-								Call Us Now: <span className="number">1-555-678-8888</span>
+								Call Us Now: <span className="number">(610) 670-8800</span>
 							</li>
 							<li>
-								Support 24/7: <Link href="/#">themesflat@gmail.com</Link>
+								Support 24/7: <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link>
 							</li>
 						</ul>
 					</div>
