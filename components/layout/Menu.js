@@ -166,6 +166,18 @@ export default function Menu() {
 						<li className={checkCurrentMenuItem("/pay-online")}>
 							<Link href="/pay-online">Pay Online</Link>
 						</li>
+						<li className={checkCurrentMenuItem("/reviews")}>
+							<Link href="/reviews">Reviews</Link>
+						</li>
+						<li className={checkCurrentMenuItem("/career")}>
+							<Link href="/career">Career</Link>
+						</li>
+						<li className={checkCurrentMenuItem("/learning-reference")}>
+							<Link href="/learning-reference">Learning Reference</Link>
+						</li>
+						<li className={checkCurrentMenuItem("/country-crisis-intervention")}>
+							<Link href="/country-crisis-intervention">Country Crisis Intervention</Link>
+						</li>
 					</ul>
 				</li>
 				<li className={`item ${pathname.startsWith("/blog") ? "current-menu-item" : ""}`}>
