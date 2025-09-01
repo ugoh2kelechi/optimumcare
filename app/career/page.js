@@ -33,11 +33,11 @@ export default function CareerPage() {
 										</div>
 									</div>
 									<div>
-										<div className="image-wrap">
+										<div className="image-wrap hidden">
 											<Link href="https://youtu.be/tSpmJtLo8SU" target="_blank" rel="noopener noreferrer">
 												</Link>
 										</div>
-										<div className="mt-16">
+										<div className="mt-16 hidden">
 											<Link className="tf-btn style-default btn-color-secondary pd-28 hidden" href="https://youtu.be/tSpmJtLo8SU" target="_blank" rel="noopener noreferrer">
 												<span>Watch Video <i className="icon-ArrowRight" /></span>
 											</Link>
