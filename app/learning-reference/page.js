@@ -5,48 +5,46 @@ export default function LearningReferencePage() {
 	return (
 		<>
 			<Layout breadcrumbTitle="Learning Reference">
-				<section className="section-blog tf-spacing-5">
+				<section className="section-learning-reference tf-spacing-5">
 					<div className="tf-container">
 						<div className="row">
 							<div className="col-12">
 								<div className="heading-section text-center">
-									<p className="text-2 sub">Educational Resources</p>
-									<h3>Guides, Articles, and Tools</h3>
-									<p className="description text-1 lh-30">Explore helpful reading to support mental wellness and informed care.</p>
+									<p className="text-2 sub">Learning Reference</p>
+									<h3>Reference Links</h3>
+									<p className="description text-1 lh-30">Curated publications and studies related to ADHD assessment, treatment, and objective measures.</p>
 								</div>
 
-								<div className="wrap-list grid-layout-3 gap-30">
-									<div className="box-listings">
-										<div className="image-wrap"><img src="/images/blog/blog-details-list-1.jpg" alt="occws" /></div>
-										<div className="content">
-											<ul className="meta"><li className="text-2">Guide</li></ul>
-											<h5 className="title text-1 fw-5"><Link href="/blog-details" className="line-clamp-2">Understanding Anxiety: Practical Steps</Link></h5>
-											<p className="text-1">Recognize signs and build routines that promote calm and resilience.</p>
-										</div>
-									</div>
+								<div className="ref-table">
+									<div className="ref-header text-1 fw-6">Reference</div>
+									<div className="ref-header text-1 fw-6">Links</div>
 
-									<div className="box-listings">
-										<div className="image-wrap"><img src="/images/blog/blog-details-list-2.jpg" alt="occws" /></div>
-										<div className="content">
-											<ul className="meta"><li className="text-2">Article</li></ul>
-											<h5 className="title text-1 fw-5"><Link href="/blog-details-2" className="line-clamp-2">CBT Basics: Reframing Thought Patterns</Link></h5>
-											<p className="text-1">A simple framework for noticing and reshaping unhelpful thoughts.</p>
-										</div>
-									</div>
-
-									<div className="box-listings">
-										<div className="image-wrap"><img src="/images/blog/blog-details-list-4.jpg" alt="occws" /></div>
-										<div className="content">
-											<ul className="meta"><li className="text-2">Checklist</li></ul>
-											<h5 className="title text-1 fw-5"><Link href="/blog-grid" className="line-clamp-2">Preparing for Your First Session</Link></h5>
-											<p className="text-1">What to bring, what to expect, and how to get the most from therapy.</p>
-										</div>
-									</div>
+									{[
+										{ pub: 'BMC Psychiatry', title: 'Study of user experience of an objective test (QbTest) to aid ADHD assessment and medication management: a multi-methods approach.' },
+										{ pub: 'CHILD AND ADOLESCENT MENTAL HEALTH', title: 'Innovations in Practice: an objective measure of attention, impulsivity and activity reduces time to confirm attention deficit/hyperactivity disorder diagnosis in children – a completed audit cycle.' },
+										{ pub: 'JOURNAL OF CHILD PSYCHOLOGY AND PSYCHIATRY AND ALLIED DISIPLINES', title: 'The impact of a computerized test of attention and activity (QbTest) on diagnostic decision-making in children and young people with suspected attention deficit hyperactivity disorder: single-blind randomized controlled trial.' },
+										{ pub: 'EAST MIDLANDS ACADEMIC HEALTH NETWORK', title: 'Faster and more cost-effective ADHD diagnosis for children' },
+										{ pub: 'BEHAVIORAL AND BRAIN FUNNCTIONS', title: 'Attention-deficit hyperactivity disorder (ADHD) and glial integrity: An exploration of associations of cytokines and kynurenine metabolites with symptoms and attention.' },
+										{ pub: 'JOURNALS OF ATTENTION DISORDER', title: 'ADHD and the QbTest: Diagnostic Validity of QbTest.' },
+										{ pub: 'THE PSYCHIATRIST', title: 'Assessments for attention-deficit hyperactivity disorder: use of objective measurements.' },
+										{ pub: 'BEHAVIORAL AND BRAIN FUNCTIONS', title: 'Preliminary evidence for altered motion tracking based hyperactivity in ADHD siblings.' },
+										{ pub: 'ACTA PSYCHIATRICA SCANDINAVICA', title: 'Objective measurement of motor activity during cognitive performance in adults with attention-deficit/ hyperactivity disorder.' },
+										{ pub: 'BEHAVIORAL AND BRAIN FUNCTIONS', title: 'Assessing ADHD symptoms in children and adults: evaluating the role of objective measures.' },
+										{ pub: 'PSYCHIATRY RESEARCH', title: 'The incremental validity of a computerized assessment added to clinical rating scales to differentiate adult ADHD from autism spectrum disorder.' },
+										{ pub: 'PSYCH JOURNAL', title: 'Measuring adult Attention Deficit Hyperactivity Disorder using the Quantified Behavior Test Plus.' },
+										{ pub: 'JOURNAL OF CLINICAL PSYCHOPHARMACOLOGYY', title: 'Does atomoxetine improve executive function, inhibitory control, and hyperactivity? Results from a placebo-controlled trial using quantitative measurement technology.' },
+										{ pub: 'JOURNAL OF CHILD AND ADOLESCENT PSYCHOPHARMACOLOGY', title: 'Modulation of attention-deficit/hyperactivity disorder symptoms by short- and long-acting methylphenidate over the course of a day.' },
+										{ pub: 'CHILD AND ADOLESCENT MENTAL HEALTH', title: 'Early identification of stimulant treatment responders, partial responders and non-responders using objective measures in children and adolescents with hyperkinetic disorder.' },
+									].map((item, idx) => (
+										<>
+											<div className="ref-cell text-1" key={`pub-${idx}`}>{item.pub}</div>
+											<div className="ref-cell text-1" key={`title-${idx}`}>{item.title}</div>
+										</>
+									))}
 								</div>
 
 								<div className="heading-section text-center mt-40">
-									<p className="description text-1 lh-30">Looking for more? Explore our news & blog for additional insights.</p>
-									<Link className="tf-btn style-default btn-color-secondary pd-40" href="/blog-grid"><span>Browse Articles</span></Link>
+									<p className="description text-1 lh-30">If you have official links for these references, share them and we will attach them here.</p>
 								</div>
 							</div>
 						</div>
