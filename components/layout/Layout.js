@@ -38,6 +38,11 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			const anchor = e.target.closest('a')
 			if (!anchor) return
 			const href = anchor.getAttribute('href') || ''
+			// If using Bootstrap toggles (offcanvas, dropdown, etc.), prevent navigation to avoid page jumps
+			if (anchor.hasAttribute('data-bs-toggle')) {
+				e.preventDefault()
+				return
+			}
 			// Only handle hash-only navigations that can cause jump-to-top
 			if (href === '#' || href === '/#' || href === '') {
 				e.preventDefault()
