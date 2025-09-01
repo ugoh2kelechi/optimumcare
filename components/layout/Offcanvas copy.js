@@ -41,12 +41,6 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 							</Link>
 						</li>
 
-						<li className={`menu-item ${checkCurrentMenuItem('/about')}`}>
-							<Link href="/about" className="item-menu-mobile">
-								About
-							</Link>
-						</li>
-
 						<li
 							className={`menu-item menu-item-has-children-mobile ${checkParentActive([
 								'/our-service',
@@ -73,12 +67,12 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 								</ul>
 							</div>
 						</li>
-
-						<li className={`menu-item ${checkCurrentMenuItem('/our-therapists')}`}>
-							<Link href="/our-therapists" className="item-menu-mobile">
-								Therapists
+						<li className={`menu-item ${checkCurrentMenuItem('/about')}`}>
+							<Link href="/about" className="item-menu-mobile">
+								About
 							</Link>
 						</li>
+
 						<li className={`menu-item ${checkCurrentMenuItem('/book-appointment')}`}>
 							<Link href="/book-appointment" className="item-menu-mobile">
 								Appointment Form
