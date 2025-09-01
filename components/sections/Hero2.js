@@ -35,7 +35,7 @@ export default function Hero2() {
 					</Link>
 				</div>
 				<div className="image-wrap">
-					<img className="lazyload" data-src="/images/page-title/page-title-home-2.jpg" src="/images/page-title/page-title-home-2.jpg" alt="healingy" />
+					<img className="lazyload" data-src="/images/page-title/page-title-home-2.jpg" src="/images/page-title/page-title-home-2.jpg" alt="occws" />
 				</div>
 			</div>
 
