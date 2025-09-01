@@ -33,7 +33,7 @@ export default function LearningReferencePage() {
 										{ pub: 'PSYCHIATRY RESEARCH', title: 'The incremental validity of a computerized assessment added to clinical rating scales to differentiate adult ADHD from autism spectrum disorder.', href: 'https://www.sciencedirect.com/science/article/abs/pii/S0165178115307125?via%3Dihub' },
 										{ pub: 'PSYCH JOURNAL', title: 'Measuring adult Attention Deficit Hyperactivity Disorder using the Quantified Behavior Test Plus.', href: 'https://onlinelibrary.wiley.com/doi/full/10.1002/pchj.17' },
 										{ pub: 'JOURNAL OF CLINICAL PSYCHOPHARMACOLOGYY', title: 'Does atomoxetine improve executive function, inhibitory control, and hyperactivity? Results from a placebo-controlled trial using quantitative measurement technology.', href: 'https://journals.lww.com/psychopharmacology/Abstract/2012/10000/Does_Atomoxetine_Improve_Executive_Function,.11.aspx' },
-										{ pub: 'JOURNAL OF CHILD AND ADOLESCENT PSYCHOPHARMACOLOGY', title: 'Modulation of attention-deficit/hyperactivity disorder symptoms by short- and long-acting methylphenidate over the course of a day.' },
+										{ pub: 'JOURNAL OF CHILD AND ADOLESCENT PSYCHOPHARMACOLOGY', title: 'Modulation of attention-deficit/hyperactivity disorder symptoms by short- and long-acting methylphenidate over the course of a day.', href: 'https://pubmed.ncbi.nlm.nih.gov/22364402/' },
 										{ pub: 'CHILD AND ADOLESCENT MENTAL HEALTH', title: 'Early identification of stimulant treatment responders, partial responders and non-responders using objective measures in children and adolescents with hyperkinetic disorder.' },
 									].map((item, idx) => (
 										<>
