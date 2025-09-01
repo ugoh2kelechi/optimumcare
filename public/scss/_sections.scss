@@ -239,6 +239,32 @@
     }
 }
 
+.section-learning-reference {
+    .ref-table {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 16px 24px;
+        align-items: start;
+    }
+    .ref-header {
+        border-bottom: 1px solid var(--Outline);
+        padding: 12px 0;
+    }
+    .ref-cell {
+        padding: 8px 0;
+        border-bottom: 1px solid var(--Outline);
+    }
+}
+
+@media (max-width: 767px) {
+    .section-learning-reference {
+        .ref-table {
+            grid-template-columns: 1fr;
+        }
+        .ref-header:nth-child(2) { display: none; }
+    }
+}
+
 /*page-title-homepage-3,4
 ------------------------------------------------------------------------------*/
 .page-title-homepage-3,
