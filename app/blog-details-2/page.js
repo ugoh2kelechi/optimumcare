@@ -22,7 +22,7 @@ export default function BlogDetails2() {
 						</div>
 					</div>
 					<div className="image-wrap">
-						<img className="lazyload" data-src="/images/page-title/page-title-blog-details.jpg" src="/images/page-title/page-title-blog-details.jpg" alt />
+						<img className="lazyload" data-src="/images/page-title/page-title-blog-details.jpg" src="/images/page-title/page-title-blog-details.jpg" alt="healingy" />
 					</div>
 				</div>
 
