@@ -117,35 +117,10 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 							</div>
 						</li>
 
-						<li
-							className={`menu-item menu-item-has-children-mobile ${checkParentActive([
-								'/blog-grid',
-								'/blog-details',
-								'/blog-details-2',
-							])}`}
-						>
-							<a
-
-								className="item-menu-mobile collapsed"
-								onClick={() => handleAccordion(5)}
-								aria-expanded="true"
-								aria-controls="dropdown-menu-four"
-							>
-								Blogs
-							</a>
-							<div id="dropdown-menu-four" className={`collapse ${isAccordion === 5 ? 'show' : ''}`} data-bs-parent="#menu-mobile-menu">
-								<ul className="sub-mobile">
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-grid')}`}>
-										<Link href="/blog-grid">Blog Grid</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-details')}`}>
-										<Link href="/blog-details">Blog Details 1</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-details-2')}`}>
-										<Link href="/blog-details-2">Blog Details 2</Link>
-									</li>
-								</ul>
-							</div>
+						<li className={`menu-item ${pathname.startsWith('/blog') ? 'current-item' : ''}`}>
+							<Link href="/blog-grid" className="item-menu-mobile">
+								News & Blog
+							</Link>
 						</li>
 
 						<li className={`menu-item ${checkCurrentMenuItem('/contact-us')}`}>
