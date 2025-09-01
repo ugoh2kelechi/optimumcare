@@ -37,8 +37,8 @@ export default function LearningReferencePage() {
 										{ pub: 'CHILD AND ADOLESCENT MENTAL HEALTH', title: 'Early identification of stimulant treatment responders, partial responders and non-responders using objective measures in children and adolescents with hyperkinetic disorder.', href: 'https://acamh.onlinelibrary.wiley.com/doi/full/10.1111/j.1475-3588.2010.00593.x' },
 									].map((item, idx) => (
 										<>
-											<div className="ref-cell text-1" key={`pub-${idx}`}>{item.pub}</div>
-											<div className="ref-cell text-1" key={`title-${idx}`}>
+											<div className="ref-cell text-1" key={`ref-${idx}-pub`}>{item.pub}</div>
+											<div className="ref-cell text-1" key={`ref-${idx}-title`}>
 												{item.href ? (
 													<Link href={item.href} target="_blank" rel="noopener noreferrer">{item.title}</Link>
 												) : (
