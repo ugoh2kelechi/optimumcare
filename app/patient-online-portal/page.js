@@ -27,11 +27,6 @@ export default function PatientOnlinePortal() {
 											<li>Update insurance and billing information</li>
 										</ul>
 									</div>
-									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
-										<h5 className="title">New Patients</h5>
-										<p className="text-1 lh-30">First time here? Create your account to get started with scheduling and paperwork.</p>
-										<Link href="/book-appointment" className="tf-btn style-default btn-color-secondary pd-20 mt-16"><span>Create Account</span></Link>
-									</div>
 									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 										<h5 className="title">Existing Patients</h5>
 										<p className="text-1 lh-30">Already registered? Log in to view upcoming visits and messages.</p>
