@@ -35,46 +35,10 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 			<div className="offcanvas-body inner-mobile-nav">
 				<div className="mb-body">
 					<ul id="menu-mobile-menu">
-						<li
-							className={`menu-item menu-item-has-children-mobile ${checkParentActive([
-								'/home-02',
-								'/home-03',
-								'/home-04',
-								'/home-silde-text-scroll',
-							])}`}
-						>
-							<a
-
-								className={isAccordion === 1 ? 'collapsed' : ''}
-								onClick={() => handleAccordion(1)}
-								aria-expanded="true"
-								aria-controls="dropdown-menu-one"
-							>
+						<li className={`menu-item ${pathname === '/' || pathname === '/home' ? 'current-item' : ''}`}>
+							<Link href="/" className="item-menu-mobile">
 								Home
-							</a>
-							<div
-								id="dropdown-menu-one"
-								className={`collapse ${isAccordion === 1 ? 'show' : ''}`}
-								data-bs-parent="#menu-mobile-menu"
-							>
-								<ul className="sub-mobile">
-									<li className={`menu-item ${checkCurrentMenuItem('/')}`}>
-										<Link href="/">Homepage 01</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-02')}`}>
-										<Link href="/home-02">Homepage 02</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-03')}`}>
-										<Link href="/home-03">Homepage 03</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-04')}`}>
-										<Link href="/home-04">Homepage 04</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-silde-text-scroll')}`}>
-										<Link href="/home-silde-text-scroll">Home slide text scroll</Link>
-									</li>
-								</ul>
-							</div>
+							</Link>
 						</li>
 
 						<li className={`menu-item ${checkCurrentMenuItem('/about')}`}>

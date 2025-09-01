@@ -13,25 +13,8 @@ export default function Menu() {
 		<>
 
 			<ul className="navigation">
-				<li className={`has-child relative ${checkParentActive(["/home-02", "/home-03", "/home-04", "/home-silde-text-scroll"])}`}>
-					<Link href="/#">Home</Link>
-					<ul className="sub-menu">
-						<li className={checkCurrentMenuItem("/")}>
-							<Link href="/">Homepage 01</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-02")}>
-							<Link href="/home-02">Homepage 02</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-03")}>
-							<Link href="/home-03">Homepage 03</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-04")}>
-							<Link href="/home-04">Homepage 04</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-silde-text-scroll")}>
-							<Link href="/home-silde-text-scroll">Home Slide Text Scroll</Link>
-						</li>
-					</ul>
+				<li className={`item ${pathname === "/" || pathname === "/home" ? "current-menu-item" : ""}`}>
+					<Link href="/">Home</Link>
 				</li>
 				<li className={`has-child ${checkCurrentMenuItem("/our-service")}`}>
 					<Link href="/our-service">Services</Link>
