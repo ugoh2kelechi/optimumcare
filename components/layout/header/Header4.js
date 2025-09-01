@@ -141,7 +141,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 						</div>
 						<div className="header-right">
 							<div className="group-btn">
-								<Link className="btn-find" href="/#canvasSearch" data-bs-toggle="offcanvas">
+								<Link className="btn-find" href="#" data-bs-toggle="offcanvas" data-bs-target="#canvasSearch">
 									<div className="icon">
 										<i className="icon-MagnifyingGlass" />
 									</div>
