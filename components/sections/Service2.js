@@ -52,7 +52,7 @@ export default function Service2() {
 									<div className="widget-content-inner" style={{ display: `${isTab == 1 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap wow fadeInLeft effec-overlay" data-wow-duration={1000} data-wow-delay="0s">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -81,7 +81,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 2 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -110,7 +110,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 3 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -137,7 +137,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 4 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -164,7 +164,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 5 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -190,7 +190,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 6 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -224,4 +224,3 @@ export default function Service2() {
 
 	)
 }
-
