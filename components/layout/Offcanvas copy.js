@@ -104,6 +104,15 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 							</a>
 							<div id="dropdown-menu-three" className={`collapse ${isAccordion === 3 ? 'show' : ''}`} data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
+									<li className={`menu-item ${checkCurrentMenuItem('/accepted-insurances')}`}>
+										<Link href="/accepted-insurances">Accepted Insurances</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/patient-online-portal')}`}>
+										<Link href="/patient-online-portal">Patient Online Portal</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/pay-online')}`}>
+										<Link href="/pay-online">Pay Online</Link>
+									</li>
 								</ul>
 							</div>
 						</li>
