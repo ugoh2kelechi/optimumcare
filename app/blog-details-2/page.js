@@ -15,8 +15,8 @@ export default function BlogDetails2() {
 							<div className="col-12">
 								<ul className="breadcrumbs">
 									<li><Link href="/">Home</Link></li>
-									<li>Blogs</li>
-									<li className="line-clamp-1">Mindfulness For Better Mental Health...</li>
+									<li><Link href="/blog-grid">News & Blog</Link></li>
+									<li>Details</li>
 								</ul>
 							</div>
 						</div>

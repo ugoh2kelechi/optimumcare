@@ -40,51 +40,9 @@ export default function OffcanvasMobileMenu() {
 			<div className="offcanvas-body inner-mobile-nav">
 				<div className="mb-body">
 					<ul id="menu-mobile-menu">
-						<li
-							className={`menu-item menu-item-has-children-mobile ${checkParentActive([
-								'/home-02',
-								'/home-03',
-								'/home-04',
-								'/home-silde-text-scroll',
-							])}`}
-						>
-							<Link
-								href="/#dropdown-menu-one"
-								className="item-menu-mobile collapsed"
-								data-bs-toggle="collapse"
-								aria-expanded="true"
-								aria-controls="dropdown-menu-one"
-							>
+						<li className={`menu-item ${pathname === '/' || pathname === '/home' ? 'current-item' : ''}`}>
+							<Link href="/" className="item-menu-mobile" onClick={closeOffcanvas}>
 								Home
-							</Link>
-							<div
-								id="dropdown-menu-one"
-								className={`collapse ${pathname === '/' ? 'show' : ''}`}
-								data-bs-parent="#menu-mobile-menu"
-							>
-								<ul className="sub-mobile">
-									<li className={`menu-item ${checkCurrentMenuItem('/')}`}>
-										<Link href="/" onClick={closeOffcanvas}>Homepage 01</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-02')}`}>
-										<Link href="/home-02" onClick={closeOffcanvas}>Homepage 02</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-03')}`}>
-										<Link href="/home-03" onClick={closeOffcanvas}>Homepage 03</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-04')}`}>
-										<Link href="/home-04" onClick={closeOffcanvas}>Homepage 04</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/home-silde-text-scroll')}`}>
-										<Link href="/home-silde-text-scroll" onClick={closeOffcanvas}>Home slide text scroll</Link>
-									</li>
-								</ul>
-							</div>
-						</li>
-
-						<li className={`menu-item ${checkCurrentMenuItem('/about')}`}>
-							<Link href="/about" className="item-menu-mobile" onClick={closeOffcanvas}>
-								About
 							</Link>
 						</li>
 
@@ -114,10 +72,15 @@ export default function OffcanvasMobileMenu() {
 								</ul>
 							</div>
 						</li>
+						<li className={`menu-item ${checkCurrentMenuItem('/about')}`}>
+							<Link href="/about" className="item-menu-mobile" onClick={closeOffcanvas}>
+								About
+							</Link>
+						</li>
 
-						<li className={`menu-item ${checkCurrentMenuItem('/our-therapists')}`}>
-							<Link href="/our-therapists" className="item-menu-mobile" onClick={closeOffcanvas}>
-								Therapists
+						<li className={`menu-item ${checkCurrentMenuItem('/book-appointment')}`}>
+							<Link href="/book-appointment" className="item-menu-mobile" onClick={closeOffcanvas}>
+								Appointment Form
 							</Link>
 						</li>
 
@@ -136,80 +99,27 @@ export default function OffcanvasMobileMenu() {
 								aria-expanded="true"
 								aria-controls="dropdown-menu-three"
 							>
-								Pages
+								Billing
 							</Link>
 							<div id="dropdown-menu-three" className="collapse" data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
-									<li
-										className={`menu-item menu-item-has-children-mobile-2 ${checkParentActive([
-											'/our-product',
-											'/shop-cart',
-											'/shop-check-out',
-											'/product-details',
-										])}`}
-									>
-										<Link
-											href="/#sub-product-one"
-											className="item-menu-mobile collapsed"
-											data-bs-toggle="collapse"
-											aria-expanded="true"
-											aria-controls="sub-product-one"
-										>
-											Shop
-										</Link>
-										<div id="sub-product-one" className="collapse">
-											<ul className="sub-mobile">
-												<li className={`menu-item ${checkCurrentMenuItem('/our-product')}`}>
-													<Link href="/our-product" onClick={closeOffcanvas}>Shop Product</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/shop-cart')}`}>
-													<Link href="/shop-cart" onClick={closeOffcanvas}>Shop Cart</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/shop-check-out')}`}>
-													<Link href="/shop-check-out" onClick={closeOffcanvas}>Check Out</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/product-details')}`}>
-													<Link href="/product-details" onClick={closeOffcanvas}>Shop Details</Link>
-												</li>
-											</ul>
-										</div>
+									<li className={`menu-item ${checkCurrentMenuItem('/accepted-insurances')}`}>
+										<Link href="/accepted-insurances" onClick={closeOffcanvas}>Accepted Insurances</Link>
 									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/book-appointment')}`}>
-										<Link href="/book-appointment" onClick={closeOffcanvas}>Appointment</Link>
+									<li className={`menu-item ${checkCurrentMenuItem('/patient-online-portal')}`}>
+										<Link href="/patient-online-portal" onClick={closeOffcanvas}>Patient Online Portal</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/pay-online')}`}>
+										<Link href="/pay-online" onClick={closeOffcanvas}>Pay Online</Link>
 									</li>
 								</ul>
 							</div>
 						</li>
 
-						<li
-							className={`menu-item menu-item-has-children-mobile ${checkParentActive([
-								'/blog-grid',
-								'/blog-details',
-								'/blog-details-2',
-							])}`}
-						>
-							<Link
-								href="/#dropdown-menu-four"
-								className="item-menu-mobile collapsed"
-								data-bs-toggle="collapse"
-								aria-expanded="true"
-								aria-controls="dropdown-menu-four"
-							>
-								Blogs
+						<li className={`menu-item ${pathname.startsWith('/blog') ? 'current-item' : ''}`}>
+							<Link href="/blog-grid" className="item-menu-mobile" onClick={closeOffcanvas}>
+								News & Blog
 							</Link>
-							<div id="dropdown-menu-four" className="collapse" data-bs-parent="#menu-mobile-menu">
-								<ul className="sub-mobile">
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-grid')}`}>
-										<Link href="/blog-grid" onClick={closeOffcanvas}>Blog Grid</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-details')}`}>
-										<Link href="/blog-details" onClick={closeOffcanvas}>Blog Details 1</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-details-2')}`}>
-										<Link href="/blog-details-2" onClick={closeOffcanvas}>Blog Details 2</Link>
-									</li>
-								</ul>
-							</div>
 						</li>
 
 						<li className={`menu-item ${checkCurrentMenuItem('/contact-us')}`}>

@@ -1,4 +1,3 @@
-
 'use client'
 import dynamic from "next/dynamic"
 import { useEffect, useState } from "react"
@@ -11,11 +10,7 @@ import Hero5 from "../sections/Hero5"
 import Breadcrumb from './Breadcrumb'
 import Footer1 from './footer/Footer1'
 import Footer2 from './footer/Footer2'
-import Header1 from "./header/Header1"
-import Header2 from './header/Header2'
-import Header3 from "./header/Header3"
 import Header4 from "./header/Header4"
-import Header5 from "./header/Header5"
 import OffcanvasMobileMenu from "./Offcanvas"
 import Search from "./Search"
 const Accordion = dynamic(() => import("../elements/collapseFunc"), { ssr: false })
@@ -46,11 +41,7 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 		<><div id="top" />
 			<Accordion />
 			<div id="wrapper">
-				{!headerStyle && <Header5 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} />}
-				{headerStyle == 1 ? <Header1 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} /> : null}
-				{headerStyle == 2 ? <Header2 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} /> : null}
-				{headerStyle == 3 ? <Header3 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} /> : null}
-				{headerStyle == 4 ? <Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} /> : null}
+				<Header4 scroll={scroll} isMobileMenu={isMobileMenu} handleMobileMenu={handleMobileMenu} isSearch={isSearch} handleSearch={handleSearch} />
 
 				{hero == 1 && <Hero1 />}
 				{hero == 2 && <Hero2 />}

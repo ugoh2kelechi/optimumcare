@@ -13,25 +13,8 @@ export default function Menu() {
 		<>
 
 			<ul className="navigation">
-				<li className={`has-child relative ${checkParentActive(["/home-02", "/home-03", "/home-04", "/home-silde-text-scroll"])}`}>
-					<Link href="/#">Home</Link>
-					<ul className="sub-menu">
-						<li className={checkCurrentMenuItem("/")}>
-							<Link href="/">Homepage 01</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-02")}>
-							<Link href="/home-02">Homepage 02</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-03")}>
-							<Link href="/home-03">Homepage 03</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-04")}>
-							<Link href="/home-04">Homepage 04</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/home-silde-text-scroll")}>
-							<Link href="/home-silde-text-scroll">Home Slide Text Scroll</Link>
-						</li>
-					</ul>
+				<li className={`item ${pathname === "/" || pathname === "/home" ? "current-menu-item" : ""}`}>
+					<Link href="/">Home</Link>
 				</li>
 				<li className={`has-child ${checkCurrentMenuItem("/our-service")}`}>
 					<Link href="/our-service">Services</Link>
@@ -165,50 +148,28 @@ export default function Menu() {
 					</div>
 
 				</li>
-				<li className={`has-child relative ${checkParentActive(["/about", "/our-therapists", "/book-appointment"])}`}>
-					<Link href="/#">Pages</Link>
+				<li className={`item ${pathname === "/about" ? "current-menu-item" : ""}`}>
+					<Link href="/about">About</Link>
+				</li>
+				<li className={`item ${pathname === "/book-appointment" ? "current-menu-item" : ""}`}>
+					<Link href="/book-appointment">Appointment Form</Link>
+				</li>
+				<li className={`has-child relative ${checkParentActive(["/accepted-insurances", "/patient-online-portal", "/pay-online"])}`}>
+					<Link href="/#">Billing</Link>
 					<ul className="sub-menu">
-						<li className={checkCurrentMenuItem("/about")}>
-							<Link href="/about">About</Link>
+						<li className={checkCurrentMenuItem("/accepted-insurances")}>
+							<Link href="/accepted-insurances">Accepted Insurances</Link>
 						</li>
-						<li className={checkCurrentMenuItem("/our-therapists")}>
-							<Link href="/our-therapists">Therapists</Link>
+						<li className={checkCurrentMenuItem("/patient-online-portal")}>
+							<Link href="/patient-online-portal">Patient Online Portal</Link>
 						</li>
-						<li className={checkCurrentMenuItem("/book-appointment")}>
-							<Link href="/book-appointment">Appointment</Link>
+						<li className={checkCurrentMenuItem("/pay-online")}>
+							<Link href="/pay-online">Pay Online</Link>
 						</li>
 					</ul>
 				</li>
-				<li className={`has-child relative ${checkParentActive(["/our-product", "/shop-cart", "/shop-check-out", "/product-details"])}`}>
-					<Link href="/#">Shop</Link>
-					<ul className="sub-menu">
-						<li className={checkCurrentMenuItem("/our-product")}>
-							<Link href="/our-product">Our Product</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/shop-cart")}>
-							<Link href="/shop-cart">Shop Cart</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/shop-check-out")}>
-							<Link href="/shop-check-out">Check Out</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/product-details")}>
-							<Link href="/product-details">Shop Details</Link>
-						</li>
-					</ul>
-				</li>
-				<li className={`has-child relative ${checkParentActive(["/blog-grid", "/blog-details", "/blog-details-2"])}`}>
-					<Link href="/#">Blogs</Link>
-					<ul className="sub-menu">
-						<li className={checkCurrentMenuItem("/blog-grid")}>
-							<Link href="/blog-grid">Blog Grid</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/blog-details")}>
-							<Link href="/blog-details">Blog Details 1</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/blog-details-2")}>
-							<Link href="/blog-details-2">Blog Details 2</Link>
-						</li>
-					</ul>
+				<li className={`item ${pathname.startsWith("/blog") ? "current-menu-item" : ""}`}>
+					<Link href="/blog-grid">News & Blog</Link>
 				</li>
 				{/* <li className={checkCurrentMenuItem("/contact-us")}> */}
 				<li className={`item ${pathname === "/contact-us" ? "current-menu-item" : ""}`}>
