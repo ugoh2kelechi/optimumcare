@@ -263,9 +263,9 @@ export default function OurTherapists() {
 											</p>
 										</div>
 										<ul className="list-info">
-											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-Envelope" /> <Link href="/#">themesflat@gmail.com</Link></li>
-											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-PhoneCall" />1-333-345-6868</li>
-											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-MapPin" />101 E 129th St, East Chicago, IN 46312, US
+											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-Envelope" /> <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link></li>
+											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-PhoneCall" />(610) 670-8800</li>
+											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-MapPin" />1011 Brookside Road Suite 304 Allentown, PA 18106, US
 											</li>
 										</ul>
 										<Link href="/#" className="tf-btn-link z-5 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
