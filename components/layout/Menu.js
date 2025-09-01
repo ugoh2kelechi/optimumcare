@@ -93,7 +93,7 @@ export default function Menu() {
 											<div className="wrap-list">
 												<div className="box-listings">
 													<div className="image-wrap">
-														<img src="/images/blog/blog-details-list-1.jpg" alt="healingy" />
+														<img src="/images/blog/blog-details-list-1.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -109,7 +109,7 @@ export default function Menu() {
 												</div>
 												<div className="box-listings">
 													<div className="image-wrap">
-														<img src="/images/blog/blog-details-list-2.jpg" alt="healingy" />
+														<img src="/images/blog/blog-details-list-2.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -125,7 +125,7 @@ export default function Menu() {
 												</div>
 												<div className="box-listings">
 													<div className="image-wrap">
-														<img src="/images/blog/blog-details-list-4.jpg" alt="healingy" />
+														<img src="/images/blog/blog-details-list-4.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
