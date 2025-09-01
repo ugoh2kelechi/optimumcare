@@ -11,7 +11,7 @@ export default function News4() {
 						<div className="col-12">
 							<div className="heading-section ">
 								<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><Link href="/#">Favourite Topics</Link></p>
-								<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Healingy Blog &amp;
+								<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Optimum Care Counseling and Wellness Solutions Blog &amp;
 									Resources</h3>
 								<p className="description text-1 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 									Your go-to source for mental health insights, tools, and
@@ -23,7 +23,7 @@ export default function News4() {
 							<div className="article-blog-item  hover-img  wow fadeInLeft" data-wow-duration={1000} data-wow-delay="0s">
 								<div className="image-wrap">
 									<Link href="/blog-details">
-										<img className="lazyload" data-src="/images/section/section-news-1.jpg" src="/images/section/section-news-1.jpg" alt="healingy" />
+										<img className="lazyload" data-src="/images/section/section-news-1.jpg" src="/images/section/section-news-1.jpg" alt="occws" />
 									</Link>
 									<div className="date-time">
 										<div className="content">
@@ -46,7 +46,7 @@ export default function News4() {
 								<div className="box-listings hover-img wow fadeInRight" data-wow-duration={1000} data-wow-delay="0s">
 									<div className="image-wrap">
 										<Link href="/blog-details">
-											<img src="/images/blog/blog-details-list-1.jpg" alt="healingy" />
+											<img src="/images/blog/blog-details-list-1.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="content">
@@ -63,7 +63,7 @@ export default function News4() {
 								<div className="box-listings hover-img wow fadeInRight" data-wow-duration={1000} data-wow-delay="0s">
 									<div className="image-wrap">
 										<Link href="/blog-details">
-											<img src="/images/blog/blog-details-list-2.jpg" alt="healingy" />
+											<img src="/images/blog/blog-details-list-2.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="content">
@@ -81,7 +81,7 @@ export default function News4() {
 								<div className="box-listings hover-img wow fadeInRight" data-wow-duration={1000} data-wow-delay="0s">
 									<div className="image-wrap">
 										<Link href="/blog-details">
-											<img src="/images/blog/blog-details-list-3.jpg" alt="healingy" />
+											<img src="/images/blog/blog-details-list-3.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="content">
@@ -98,7 +98,7 @@ export default function News4() {
 								<div className="box-listings hover-img wow fadeInRight" data-wow-duration={1000} data-wow-delay="0s">
 									<div className="image-wrap">
 										<Link href="/blog-details">
-											<img src="/images/blog/blog-details-list-4.jpg" alt="healingy" />
+											<img src="/images/blog/blog-details-list-4.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="content">
@@ -122,4 +122,3 @@ export default function News4() {
 
 	)
 }
-
