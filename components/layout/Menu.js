@@ -16,9 +16,6 @@ export default function Menu() {
 				<li className={`item ${pathname === "/" || pathname === "/home" ? "current-menu-item" : ""}`}>
 					<Link href="/">Home</Link>
 				</li>
-				<li className={`item ${pathname === "/book-appointment" ? "current-menu-item" : ""}`}>
-					<Link href="/book-appointment">Appointment Form</Link>
-				</li>
 				<li className={`has-child ${checkCurrentMenuItem("/our-service")}`}>
 					<Link href="/our-service">Services</Link>
 					<div className="sub-menu service-link">
