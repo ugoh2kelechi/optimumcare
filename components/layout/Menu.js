@@ -155,7 +155,7 @@ export default function Menu() {
 					<Link href="/book-appointment">Appointment Form</Link>
 				</li>
 				<li className={`has-child relative ${checkParentActive(["/accepted-insurances", "/patient-online-portal", "/pay-online"])}`}>
-					<Link href="/#">Billing</Link>
+					<Link href="/#">Resources</Link>
 					<ul className="sub-menu">
 						<li className={checkCurrentMenuItem("/accepted-insurances")}>
 							<Link href="/accepted-insurances">Accepted Insurances</Link>
