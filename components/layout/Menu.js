@@ -154,7 +154,7 @@ export default function Menu() {
 				<li className={`item ${pathname === "/book-appointment" ? "current-menu-item" : ""}`}>
 					<Link href="/book-appointment">Appointment Form</Link>
 				</li>
-				<li className={`has-child relative ${checkParentActive(["/accepted-insurances", "/patient-online-portal", "/pay-online", "/our-therapists"])}`}>
+				<li className={`has-child relative ${checkParentActive(["/accepted-insurances", "/patient-online-portal", "/pay-online"])}`}>
 					<Link href="/#">Billing</Link>
 					<ul className="sub-menu">
 						<li className={checkCurrentMenuItem("/accepted-insurances")}>
@@ -165,9 +165,6 @@ export default function Menu() {
 						</li>
 						<li className={checkCurrentMenuItem("/pay-online")}>
 							<Link href="/pay-online">Pay Online</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/our-therapists")}>
-							<Link href="/our-therapists">Therapists</Link>
 						</li>
 					</ul>
 				</li>
