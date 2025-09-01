@@ -12,7 +12,7 @@ export default function OurService() {
 						<div className="row">
 							<div className="col-12">
 								<div className="image-wrap wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-									<img className="lazyload" data-src="/images/section/section-hero.jpg" src="/images/section/section-hero.jpg" alt="healingy" />
+									<img className="lazyload" data-src="/images/section/section-hero.jpg" src="/images/section/section-hero.jpg" alt="occws" />
 								</div>
 								<p className="text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Comprehensive therapy and psychiatry services for all ages—personalized counseling, evidence-based techniques like CBT, and expert medication management to support your mental wellness.</p>
 							</div>
@@ -61,7 +61,7 @@ export default function OurService() {
 										</div>
 										<div className="image-wrap z-5 relative">
 											<Link href="/service-details">
-												<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="occws" />
 											</Link>
 										</div>
 										<Link href="/service-details" className="tf-btn-link z-5">
@@ -79,7 +79,7 @@ export default function OurService() {
 										</div>
 										<div className="image-wrap z-5 relative">
 											<Link href="/service-details">
-												<img className="lazyload" data-src="/images/section/service-item-2.jpg" src="/images/section/service-item-2.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/service-item-2.jpg" src="/images/section/service-item-2.jpg" alt="occws" />
 											</Link>
 										</div>
 										<Link href="/service-details" className="tf-btn-link z-5">
@@ -97,7 +97,7 @@ export default function OurService() {
 										</div>
 										<div className="image-wrap z-5 relative">
 											<Link href="/service-details">
-												<img className="lazyload" data-src="/images/section/service-item-3.jpg" src="/images/section/service-item-3.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/service-item-3.jpg" src="/images/section/service-item-3.jpg" alt="occws" />
 											</Link>
 										</div>
 										<Link href="/service-details" className="tf-btn-link z-5">
@@ -115,7 +115,7 @@ export default function OurService() {
 										</div>
 										<div className="image-wrap z-5 relative">
 											<Link href="/service-details">
-												<img className="lazyload" data-src="/images/section/service-item-4.jpg" src="/images/section/service-item-4.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/service-item-4.jpg" src="/images/section/service-item-4.jpg" alt="occws" />
 											</Link>
 										</div>
 										<Link href="/service-details" className="tf-btn-link z-5">
@@ -133,7 +133,7 @@ export default function OurService() {
 										</div>
 										<div className="image-wrap z-5 relative">
 											<Link href="/service-details">
-												<img className="lazyload" data-src="/images/section/service-item-5.jpg" src="/images/section/service-item-5.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/service-item-5.jpg" src="/images/section/service-item-5.jpg" alt="occws" />
 											</Link>
 										</div>
 										<Link href="/service-details" className="tf-btn-link z-5">
@@ -151,7 +151,7 @@ export default function OurService() {
 										</div>
 										<div className="image-wrap z-5 relative">
 											<Link href="/service-details">
-												<img className="lazyload" data-src="/images/section/service-item-6.jpg" src="/images/section/service-item-6.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/service-item-6.jpg" src="/images/section/service-item-6.jpg" alt="occws" />
 											</Link>
 										</div>
 										<Link href="/service-details" className="tf-btn-link z-5">
