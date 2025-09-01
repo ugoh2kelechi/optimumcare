@@ -29,17 +29,17 @@ export default function Testimonials1() {
 										<div className="swiper-wrapper">
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay ">
-													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 										</div>
