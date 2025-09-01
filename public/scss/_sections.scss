@@ -307,6 +307,17 @@
     }
 }
 
+/* list utilities */
+.list-disc {
+    list-style: disc;
+    padding-left: 20px;
+    margin-left: 10px;
+    li {
+        list-style: disc;
+        margin-left: 16px;
+    }
+}
+
 /*section-box-about
 ------------------------------------------------------------------------------*/
 .section-box-about {
