@@ -30,15 +30,15 @@ export default function About() {
 									</Link>
 								</div>
 
-								<div className="row mt-40 mission-vision">
-									<div className="col-md-6 mb-24">
-										<h4 className="mb-12">OUR MISSION</h4>
+								<div className="row mission-vision">
+									<div className="col-md-6">
+										<h4>OUR MISSION</h4>
 										<p className="text-1 lh-30">
 											To provide compassionate, evidence-based mental health care that empowers individuals to overcome challenges and achieve lasting well-being.
 										</p>
 									</div>
-									<div className="col-md-6 mb-24">
-										<h4 className="mb-12">OUR VISION</h4>
+									<div className="col-md-6">
+										<h4>OUR VISION</h4>
 										<p className="text-1 lh-30">
 											To be a leading provider of accessible, personalized mental health services, fostering hope, resilience, and positive change in the lives of our clients.
 										</p>
@@ -68,20 +68,20 @@ export default function About() {
 							<h3>A comprehensive, client-centered model</h3>
 						</div>
 						<div className="grid-layout-4 gap-30">
-							<div className="approach-item p-24 br-12 bg-1">
-								<h6 className="mb-12">A collaborative and client-centered</h6>
+							<div className="approach-item bg-1">
+								<h6>A collaborative and client-centered</h6>
 								<p className="text-1 lh-30">We combine therapeutic techniques and psychiatric expertise to address a wide range of mental health concerns.</p>
 							</div>
-							<div className="approach-item p-24 br-12 bg-1">
-								<h6 className="mb-12">Utilizing evidence-based methods</h6>
+							<div className="approach-item bg-1">
+								<h6>Utilizing evidence-based methods</h6>
 								<p className="text-1 lh-30">We utilize CBT, DBT, and ABA to promote effective and sustainable outcomes.</p>
 							</div>
-							<div className="approach-item p-24 br-12 bg-1">
-								<h6 className="mb-12">A team-based approach</h6>
+							<div className="approach-item bg-1">
+								<h6>A team-based approach</h6>
 								<p className="text-1 lh-30">Our team includes psychologists, psychiatrists, and mental health nurse practitioners to provide comprehensive, tailored care.</p>
 							</div>
-							<div className="approach-item p-24 br-12 bg-1">
-								<h6 className="mb-12">Challenging negative thoughts</h6>
+							<div className="approach-item bg-1">
+								<h6>Challenging negative thoughts</h6>
 								<p className="text-1 lh-30">We focus on identifying and challenging negative patterns, building healthier coping skills, and promoting positive change.</p>
 							</div>
 						</div>
@@ -94,7 +94,7 @@ export default function About() {
 							<p className="text-2 sub">Need For Therapy</p>
 							<h3>Why Therapy Helps</h3>
 						</div>
-						<ul className="list mt-12">
+						<ul className="list">
 							<li>Process emotions: Therapy provides a safe space to understand and manage emotions.</li>
 							<li>Gain new perspectives: A therapist can offer fresh insights and alternative ways of thinking.</li>
 							<li>Develop coping skills: Learn tools to handle stress, anxiety, and other challenges.</li>
