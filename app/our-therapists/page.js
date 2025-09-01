@@ -12,7 +12,7 @@ export default function OurTherapists() {
 						<div className="row">
 							<div className="col-12">
 								<div className="image-wrap wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-									<img className="lazyload" data-src="/images/section/section-hero-2.jpg" src="/images/section/section-hero-2.jpg" alt="healingy" />
+									<img className="lazyload" data-src="/images/section/section-hero-2.jpg" src="/images/section/section-hero-2.jpg" alt="occws" />
 								</div>
 								<p className="text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Explore
 									the diverse backgrounds and expertise of our licensed
@@ -35,7 +35,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-1.jpg" src="/images/section/team-item-1.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-1.jpg" src="/images/section/team-item-1.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -61,7 +61,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -87,7 +87,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-5.jpg" src="/images/section/team-item-5.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-5.jpg" src="/images/section/team-item-5.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -113,7 +113,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.3s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-4.jpg" src="/images/section/team-item-4.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-4.jpg" src="/images/section/team-item-4.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -139,7 +139,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-6.jpg" src="/images/section/team-item-6.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-6.jpg" src="/images/section/team-item-6.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -165,7 +165,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -191,7 +191,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-7.jpg" src="/images/section/team-item-7.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-7.jpg" src="/images/section/team-item-7.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -217,7 +217,7 @@ export default function OurTherapists() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.3s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-8.jpg" src="/images/section/team-item-8.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-8.jpg" src="/images/section/team-item-8.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
