@@ -104,6 +104,70 @@ export default function About() {
 						</div>
 					</div>
 				</div>{/* /.section-box-about */}
+
+				{/* Welcome + Videos */}
+				<section className="section-video tf-spacing-3">
+					<div className="tf-container">
+						<div className="row">
+							<div className="col-12">
+								<div className="heading-section ">
+									<p className="text-2 sub">Welcome To Optimum Care</p>
+									<h3>The greatest gift you can give yourself is the freedom to be yourself.</h3>
+									<p className="description text-1 lh-30">Therapy is not about escaping your problems, it’s about learning to navigate them.</p>
+									<Link className="tf-btn style-default btn-color-secondary pd-28" href="/book-appointment"><span>Book Appointment</span></Link>
+								</div>
+								<div className="video-embed">
+									<iframe src="https://www.youtube.com/embed/o6D7up6YgBE" title="YouTube video 1" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+								</div>
+								<div className="video-embed mt-20">
+									<iframe src="https://www.youtube.com/embed/j38-vcCKcWQ" title="YouTube video 2" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen />
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* Our Approach */}
+				<section className="tf-spacing-3">
+					<div className="tf-container">
+						<div className="row">
+							<div className="col-12">
+								<div className="heading-section ">
+									<p className="text-2 sub">Our Approach</p>
+									<h3>A collaborative, client-centered model</h3>
+								</div>
+								<ul className="list-disc text-1 lh-30">
+									<li>We combine therapeutic techniques and psychiatric expertise to address a wide range of mental health concerns.</li>
+									<li>Utilizing evidence-based methods such as CBT, DBT, and ABA to promote effective and sustainable outcomes.</li>
+									<li>A team-based approach involving licensed clinicians, including psychologists, psychiatrists, and mental health nurse practitioners, to provide comprehensive care.</li>
+									<li>Focusing on identifying and challenging negative thought patterns, fostering healthier coping skills, and positive behavioral change.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				{/* Need For Therapy */}
+				<section className="tf-spacing-3">
+					<div className="tf-container">
+						<div className="row justify-center">
+							<div className="col-md-8">
+								<div className="heading-section ">
+									<p className="text-2 sub">Need For Therapy</p>
+									<h3>Why therapy can help</h3>
+								</div>
+								<ul className="list-disc text-1 lh-30">
+									<li>Process emotions: a safe space to understand and manage feelings.</li>
+									<li>Gain new perspectives: fresh insights and alternative ways of thinking.</li>
+									<li>Develop coping skills: tools to handle stress, anxiety, and challenges.</li>
+									<li>Improve relationships: strengthen connections with loved ones.</li>
+									<li>Self-discovery: explore personal values, goals, and aspirations.</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</section>
+
 				{/* .section-team */}
 				<section className="section-team tf-spacing-5">
 					<div className="tf-container">
