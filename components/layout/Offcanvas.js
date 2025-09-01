@@ -105,10 +105,19 @@ export default function OffcanvasMobileMenu() {
 								aria-expanded="true"
 								aria-controls="dropdown-menu-three"
 							>
-								Pages
+								Billing
 							</Link>
 							<div id="dropdown-menu-three" className="collapse" data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
+									<li className={`menu-item ${checkCurrentMenuItem('/accepted-insurances')}`}>
+										<Link href="/accepted-insurances" onClick={closeOffcanvas}>Accepted Insurances</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/patient-online-portal')}`}>
+										<Link href="/patient-online-portal" onClick={closeOffcanvas}>Patient Online Portal</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/pay-online')}`}>
+										<Link href="/pay-online" onClick={closeOffcanvas}>Pay Online</Link>
+									</li>
 								</ul>
 							</div>
 						</li>
