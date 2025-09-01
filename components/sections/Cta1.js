@@ -26,7 +26,7 @@ export default function Cta1() {
 									</Link>
 								</div>
 								<div className="image-wrap wow fadeInRight" data-wow-duration={1000} data-wow-delay="0s">
-									<img className="lazyload" data-src="/images/section/section-cta.png" src="/images/section/section-cta.png" alt="healingy" />
+									<img className="lazyload" data-src="/images/section/section-cta.png" src="/images/section/section-cta.png" alt="occws" />
 								</div>
 							</div>
 						</div>
@@ -39,4 +39,3 @@ export default function Cta1() {
 
 	)
 }
-
