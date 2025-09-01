@@ -19,6 +19,9 @@ export default function Menu() {
 				<li className={`item ${pathname === "/about" ? "current-menu-item" : ""}`}>
 					<Link href="/about">About</Link>
 				</li>
+				<li className={`item ${pathname === "/book-appointment" ? "current-menu-item" : ""}`}>
+					<Link href="/book-appointment">Appointment Form</Link>
+				</li>
 				<li className={`has-child ${checkCurrentMenuItem("/our-service")}`}>
 					<Link href="/our-service">Services</Link>
 					<div className="sub-menu service-link">
@@ -151,14 +154,11 @@ export default function Menu() {
 					</div>
 
 				</li>
-				<li className={`has-child relative ${checkParentActive(["/our-therapists", "/book-appointment"])}`}>
+				<li className={`has-child relative ${checkParentActive(["/our-therapists"])}`}>
 					<Link href="/#">Pages</Link>
 					<ul className="sub-menu">
 						<li className={checkCurrentMenuItem("/our-therapists")}>
 							<Link href="/our-therapists">Therapists</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/book-appointment")}>
-							<Link href="/book-appointment">Appointment</Link>
 						</li>
 					</ul>
 				</li>
