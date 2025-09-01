@@ -30,7 +30,7 @@ export default function OffcanvasMobileMenu() {
 			<div className="offcanvas-header top-nav-mobile">
 				<div className="offcanvas-title">
 					<Link href="/">
-						<img src="/images/logo/Logo.png" alt="healingy" />
+						<img src="/images/logo/Logo.png" alt="occws" />
 					</Link>
 				</div>
 				<div data-bs-dismiss="offcanvas" aria-label="Close">
