@@ -17,11 +17,7 @@ export default function About() {
 							<div className="col-12 ">
 								<div className="heading-section  ">
 									<h2 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Our Goal Is To Help</h2>
-									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">It is a trusted counseling and therapy center,
-										staffed by experienced professionals dedicated to listening, <br /> supporting, and
-										guiding you. We believe in everyone's potential to heal and grow with the right
-										care.
-									</p>
+									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">We specialize in the treatment of Mood Disorders (depression, bipolar, anxiety), Neurodevelopmental Disorders (autism, ADD, ADHD, ODD), and Behavioral Disorders (addictions, marriage & family conflicts). We use effective, evidence‑based treatment methods such as Cognitive‑Behavioral Therapy (CBT), Dialectical Behavioral Therapy (DBT), and Applied Behavioral Analysis (ABA).</p>
 								</div>
 								<div className="box-about">
 									<div className="image-wrap wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
