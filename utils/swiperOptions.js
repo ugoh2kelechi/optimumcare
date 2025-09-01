@@ -1,4 +1,3 @@
-
 import { Autoplay, Navigation, Pagination } from "swiper/modules"
 export const sliderPageTitleHome = {
 	modules: [Autoplay, Pagination, Navigation],
@@ -21,7 +20,6 @@ export const sliderTestimonialThumbs = {
 	modules: [Autoplay, Pagination, Navigation],
 	slidesPerView: 1,
 	spaceBetween: 0,
-	watchSlidesVisibility: true,
 	watchSlidesProgress: true,
 }
 export const sliderTestimonial = {

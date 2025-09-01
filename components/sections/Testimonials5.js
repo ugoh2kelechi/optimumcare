@@ -132,17 +132,17 @@ export default function Testimonials5() {
 										<div className="swiper-wrapper">
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt />
+													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="healingy" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt />
+													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="healingy" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt />
+													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="healingy" />
 												</div>
 											</SwiperSlide>
 										</div>
@@ -159,4 +159,3 @@ export default function Testimonials5() {
 
 	)
 }
-

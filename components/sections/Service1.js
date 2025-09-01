@@ -26,7 +26,7 @@ export default function Service1() {
 							<div className="grid-layout-3 multi-item">
 								<div className="service-item style-2 h-280 wow fadeInUp" data-wow-duration={1000}>
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt />
+										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
 									</div>
 									<div className="content z-5">
 										<h5 className="title">
@@ -43,7 +43,7 @@ export default function Service1() {
 								</div>
 								<div className="service-item style-2 h-280 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt />
+										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
 									</div>
 									<div className="content z-5">
 										<h5 className="title">
@@ -60,7 +60,7 @@ export default function Service1() {
 								</div>
 								<div className="service-item style-2 h-280  wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt />
+										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
 									</div>
 									<div className="content z-5">
 										<h5 className="title">
@@ -77,7 +77,7 @@ export default function Service1() {
 								</div>
 								<div className="service-item style-2 h-280  wow fadeInUp" data-wow-duration={1000} data-wow-delay={0}>
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt />
+										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
 									</div>
 									<div className="content z-5">
 										<h5 className="title">
@@ -93,7 +93,7 @@ export default function Service1() {
 								</div>
 								<div className="service-item style-2 h-280  wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt />
+										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
 									</div>
 									<div className="content z-5">
 										<h5 className="title">
@@ -110,7 +110,7 @@ export default function Service1() {
 								</div>
 								<div className="service-item style-2 h-280  wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt />
+										<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
 									</div>
 									<div className="content z-5">
 										<h5 className="title">
@@ -135,4 +135,3 @@ export default function Service1() {
 
 	)
 }
-

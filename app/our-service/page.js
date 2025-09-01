@@ -14,10 +14,7 @@ export default function OurService() {
 								<div className="image-wrap wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 									<img className="lazyload" data-src="/images/section/section-hero.jpg" src="/images/section/section-hero.jpg" alt="healingy" />
 								</div>
-								<p className="text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Discover
-									tailored therapy solutions designed to support your mental
-									well-being, enhance emotional resilience, and foster personal growth for a balanced and
-									fulfilling life.</p>
+								<p className="text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Comprehensive therapy and psychiatry services for all ages—personalized counseling, evidence-based techniques like CBT, and expert medication management to support your mental wellness.</p>
 							</div>
 						</div>
 					</div>
@@ -28,11 +25,29 @@ export default function OurService() {
 						<div className="row">
 							<div className="col-12">
 								<div className="heading-section ">
-									<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Counseling &amp;
-										Therapy Services</h3>
-									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">We offer a wide range of services to meet your
-										personal needs
-									</p>
+									<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Therapy &amp; Psychiatry Services</h3>
+									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Optimum Care Counseling and Wellness Solution, we offer therapy (psychotherapy/counseling) for all ages and diagnoses. Our diverse team uses evidence-based approaches—including Cognitive Behavioral Therapy (CBT)—and provides individual therapy, family therapy, and couples counseling. We treat Anxiety, Depression, Bipolar Disorder, Schizophrenia, Autism Spectrum Disorder (ASD), Obsessive-Compulsive Disorder (OCD), Eating Disorders, and more.</p>
+									<h4 className="mb-16 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Psychiatry</h4>
+									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Our psychiatric team—Psychiatrists and Board-Certified Psychiatric Mental Health Nurse Practitioners—specializes in medication management across all drug classes. We help patients initiate, maintain, adjust, or discontinue psychiatric medications safely and effectively.</p>
+									<h4 className="mb-16 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">We Are Specialized In</h4>
+									<ul className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
+										<li>Individual Therapy</li>
+										<li>Family Therapy</li>
+										<li>Couples Counseling</li>
+										<li>Anxiety Disorders</li>
+										<li>Depression</li>
+										<li>Bipolar Disorder</li>
+										<li>Schizophrenia</li>
+										<li>Autism Spectrum Disorder (ASD)</li>
+										<li>Obsessive-Compulsive Disorder (OCD)</li>
+										<li>Eating Disorders</li>
+									</ul>
+									<h4 className="mb-16 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Our Rates</h4>
+									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Fees are subject to change and may be adjusted based on insurance contracts. Cash-paying customers, please contact our office at (610) 670-8800 for accurate rates.</p>
+									<ul className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
+										<li>Late Cancellation Fee: $40.00</li>
+										<li>Missed Appointment / No Call No Show: $50.00</li>
+									</ul>
 								</div>
 								<div className="grid-layout-3 multi-item">
 									<div className="service-item style-3 hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
@@ -167,9 +182,9 @@ export default function OurService() {
 											</p>
 										</div>
 										<ul className="list-info">
-											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-Envelope" /> <Link href="/#">themesflat@gmail.com</Link></li>
-											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-PhoneCall" />1-333-345-6868</li>
-											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-MapPin" />101 E 129th St, East Chicago, IN 46312, US
+											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-Envelope" /> <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link></li>
+											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-PhoneCall" />(610) 670-8800</li>
+											<li className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s"><i className="icon-MapPin" />1011 Brookside Road Suite 304 Allentown, PA 18106, US
 											</li>
 										</ul>
 										<Link href="/contact-us" className="tf-btn-link z-5 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">

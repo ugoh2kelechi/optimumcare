@@ -11,11 +11,11 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 						<ul className="top-info">
 							<li className="text-2">
 								<div className="title text-2">Call Us Now:</div>
-								<div className=" text-3 fw-6">1-555-678-8888</div>
+								<div className=" text-3 fw-6">(610) 670-8800</div>
 							</li>
 							<li className="text-2">
 								<div className="title text-2">Support 24/7:</div>
-								<div className=" text-3 fw-6"><Link href="/#">themesflat@gmail.com</Link></div>
+								<div className=" text-3 fw-6"><Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link></div>
 							</li>
 						</ul>
 					</div>

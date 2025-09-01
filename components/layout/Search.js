@@ -1,4 +1,3 @@
-
 export default function Search({ isSearch, handleSearch }) {
 	return (
 		<>
@@ -15,10 +14,10 @@ export default function Search({ isSearch, handleSearch }) {
 										<i className="icon-keyboard" />
 									</div>
 									<fieldset>
-										<input className type="text" placeholder="Search for anything" name="text" tabIndex={2} defaultValue aria-required="true" required />
+										<input type="text" placeholder="Search for anything" name="text" tabIndex={2} aria-required="true" required />
 									</fieldset>
 									<div className="button-submit">
-										<button className type="submit">
+										<button type="submit">
 											<i className="icon-MagnifyingGlass fs-20" />
 										</button>
 									</div>
