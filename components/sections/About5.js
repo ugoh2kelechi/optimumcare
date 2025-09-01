@@ -21,7 +21,7 @@ export default function About5() {
 									</div>
 									<div className="heading-section text-start  wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-											About Healingy</p>
+											About Optimum Care Counseling and Wellness Solutions</p>
 										<h3>Trusted professionals dedicated to your mental well-being
 										</h3>
 										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">With a team of licensed therapists and a
