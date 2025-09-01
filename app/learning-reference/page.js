@@ -1,7 +1,26 @@
 import Layout from "@/components/layout/Layout"
 import Link from "next/link"
+import { useEffect } from "react"
 
 export default function LearningReferencePage() {
+	useEffect(() => {
+		if (typeof window !== 'undefined') {
+			const { hash, pathname, search } = window.location
+			if (hash === '' || hash === '#') {
+				history.replaceState(null, '', pathname + search)
+			}
+			let prev
+			if ('scrollRestoration' in window.history) {
+				prev = window.history.scrollRestoration
+				window.history.scrollRestoration = 'manual'
+			}
+			return () => {
+				if ('scrollRestoration' in window.history) {
+					window.history.scrollRestoration = prev || 'auto'
+				}
+			}
+		}
+	}, [])
 	return (
 		<>
 			<Layout breadcrumbTitle="Learning Reference">
