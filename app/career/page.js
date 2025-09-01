@@ -132,7 +132,6 @@ export default function CareerPage() {
 
 								<div className="heading-section text-center mt-40">
 									<p className="description text-1 lh-30">If you are interested in applying, please reach out to <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link>, and include your resume in your email to us!</p>
-									<Link className="tf-btn style-default btn-color-secondary pd-40 hidden" href="mailto:servicerequests@optimumcarecounseling.com?subject=Career%20Application%20-%20Optimum%20Care%20Counseling"><span>Apply via Email</span></Link>
 								</div>
 							</div>
 						</div>
