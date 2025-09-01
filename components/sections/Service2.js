@@ -61,7 +61,7 @@ export default function Service2() {
 														Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Healingy, our
+													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Optimum Care Counseling and Wellness Solutions, our
 														licensed
 														therapists
 														specialize in customized family therapy, helping families
@@ -90,7 +90,7 @@ export default function Service2() {
 														Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Healingy, our
+													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Optimum Care Counseling and Wellness Solutions, our
 														licensed
 														therapists
 														specialize in customized family therapy, helping families
@@ -118,7 +118,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30">At Healingy, our licensed
+													<p className="description text-1 lh-30">At Optimum Care Counseling and Wellness Solutions, our licensed
 														therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
@@ -145,7 +145,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30">At Healingy, our licensed
+													<p className="description text-1 lh-30">At Optimum Care Counseling and Wellness Solutions, our licensed
 														therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
@@ -172,7 +172,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1">At Healingy, our licensed therapists
+													<p className="description text-1">At Optimum Care Counseling and Wellness Solutions, our licensed therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
 														connections. We equip your family with the tools and guidance
@@ -198,7 +198,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1">At Healingy, our licensed therapists
+													<p className="description text-1">At Optimum Care Counseling and Wellness Solutions, our licensed therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
 														connections. We equip your family with the tools and guidance
