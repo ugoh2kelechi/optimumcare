@@ -16,7 +16,7 @@ export default function About3() {
 									</div>
 									<div className="heading-section text-start ">
 										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-											About Healingy</p>
+											About Optimum Care Counseling and Wellness Solutions</p>
 										<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Trusted
 											professionals dedicated to your mental
 										</h3>
