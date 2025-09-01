@@ -21,7 +21,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 					</div>
 					<div className="top-logo">
 						<Link href="/" className="site-logo">
-							<img alt="occws" src="/images/logo/Logo.png" />
+							<img alt="occws" src="https://cdn.builder.io/api/v1/image/assets%2Fab3018047d0c4b508dd0b16003d9a634%2F533d51780c52493abea07782a32fa659" />
 						</Link>
 					</div>
 					<div className="top-bar-right">
@@ -127,7 +127,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 						<div className="header-left">
 							<div className="header-logo-2">
 								<Link href="/" className="site-logo">
-									<img id="logo_header" alt="occws" src="/images/logo/Logo.png" data-retina="images/logo/logo@2x.png" />
+									<img id="logo_header" alt="occws" src="https://cdn.builder.io/api/v1/image/assets%2Fab3018047d0c4b508dd0b16003d9a634%2F533d51780c52493abea07782a32fa659" data-retina="images/logo/logo@2x.png" />
 								</Link>
 							</div>
 							<nav className="main-menu mx-0">
@@ -135,7 +135,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 							</nav>
 							<div className="header-logo">
 								<Link href="/" className="site-logo">
-									<img id="logo_header" alt="occws" src="/images/logo/Logo.png" data-retina="images/logo/logo@2x.png" />
+									<img id="logo_header" alt="occws" src="https://cdn.builder.io/api/v1/image/assets%2Fab3018047d0c4b508dd0b16003d9a634%2F533d51780c52493abea07782a32fa659" data-retina="images/logo/logo@2x.png" />
 								</Link>
 							</div>
 						</div>
