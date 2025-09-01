@@ -109,40 +109,6 @@ export default function OffcanvasMobileMenu() {
 							</Link>
 							<div id="dropdown-menu-three" className="collapse" data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
-									<li
-										className={`menu-item menu-item-has-children-mobile-2 ${checkParentActive([
-											'/our-product',
-											'/shop-cart',
-											'/shop-check-out',
-											'/product-details',
-										])}`}
-									>
-										<Link
-											href="/#sub-product-one"
-											className="item-menu-mobile collapsed"
-											data-bs-toggle="collapse"
-											aria-expanded="true"
-											aria-controls="sub-product-one"
-										>
-											Shop
-										</Link>
-										<div id="sub-product-one" className="collapse">
-											<ul className="sub-mobile">
-												<li className={`menu-item ${checkCurrentMenuItem('/our-product')}`}>
-													<Link href="/our-product" onClick={closeOffcanvas}>Shop Product</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/shop-cart')}`}>
-													<Link href="/shop-cart" onClick={closeOffcanvas}>Shop Cart</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/shop-check-out')}`}>
-													<Link href="/shop-check-out" onClick={closeOffcanvas}>Check Out</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/product-details')}`}>
-													<Link href="/product-details" onClick={closeOffcanvas}>Shop Details</Link>
-												</li>
-											</ul>
-										</div>
-									</li>
 								</ul>
 							</div>
 						</li>
