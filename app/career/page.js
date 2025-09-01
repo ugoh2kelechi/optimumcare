@@ -35,8 +35,7 @@ export default function CareerPage() {
 									<div>
 										<div className="image-wrap">
 											<Link href="https://youtu.be/tSpmJtLo8SU" target="_blank" rel="noopener noreferrer">
-												<img src="/images/section/section-about-3.jpg" alt="occws" />
-											</Link>
+												</Link>
 										</div>
 										<div className="mt-16">
 											<Link className="tf-btn style-default btn-color-secondary pd-28" href="https://youtu.be/tSpmJtLo8SU" target="_blank" rel="noopener noreferrer">
