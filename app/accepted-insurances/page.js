@@ -56,11 +56,11 @@ export default function AcceptedInsurances() {
 								<div className="tf-divider mt-40 mb-24" />
 								<div className="heading-section ">
 									<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Important Notes</h3>
-									<ul className="list-disc text-1 lh-30">
-										<li>Copays, deductibles, and coinsurance may apply based on your plan.</li>
-										<li>Authorization or referrals may be required by some insurers.</li>
-										<li>Please bring your insurance card and photo ID to your first appointment.</li>
-									</ul>
+									<div className="text-1 lh-30">
+										<p>Copays, deductibles, and coinsurance may apply based on your plan.</p>
+										<p>Authorization or referrals may be required by some insurers.</p>
+										<p>Please bring your insurance card and photo ID to your first appointment.</p>
+									</div>
 								</div>
 							</div>
 						</div>
