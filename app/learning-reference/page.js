@@ -26,7 +26,7 @@ export default function LearningReferencePage() {
 										{ pub: 'EAST MIDLANDS ACADEMIC HEALTH NETWORK', title: 'Faster and more cost-effective ADHD diagnosis for children', href: 'https://www.ahsnnetwork.com/case-study/transforming-adhd-care-in-the-east-midlands-qbtest' },
 										{ pub: 'BEHAVIORAL AND BRAIN FUNNCTIONS', title: 'Attention-deficit hyperactivity disorder (ADHD) and glial integrity: An exploration of associations of cytokines and kynurenine metabolites with symptoms and attention.', href: 'https://behavioralandbrainfunctions.biomedcentral.com/articles/10.1186/1744-9081-6-32' },
 										{ pub: 'JOURNALS OF ATTENTION DISORDER', title: 'ADHD and the QbTest: Diagnostic Validity of QbTest.', href: 'https://journals.sagepub.com/doi/abs/10.1177/1087054715595697?journalCode=jada' },
-										{ pub: 'THE PSYCHIATRIST', title: 'Assessments for attention-deficit hyperactivity disorder: use of objective measurements.' },
+										{ pub: 'THE PSYCHIATRIST', title: 'Assessments for attention-deficit hyperactivity disorder: use of objective measurements.', href: 'https://www.cambridge.org/core/journals/the-psychiatrist/article/assessments-for-attentiondeficit-hyperactivity-disorder-use-of-objective-measurements/8183EDE1651C6E0F6444320FDC4501A7' },
 										{ pub: 'BEHAVIORAL AND BRAIN FUNCTIONS', title: 'Preliminary evidence for altered motion tracking based hyperactivity in ADHD siblings.' },
 										{ pub: 'ACTA PSYCHIATRICA SCANDINAVICA', title: 'Objective measurement of motor activity during cognitive performance in adults with attention-deficit/ hyperactivity disorder.' },
 										{ pub: 'BEHAVIORAL AND BRAIN FUNCTIONS', title: 'Assessing ADHD symptoms in children and adults: evaluating the role of objective measures.' },
