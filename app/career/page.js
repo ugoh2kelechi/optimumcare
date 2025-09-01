@@ -38,14 +38,14 @@ export default function CareerPage() {
 												</Link>
 										</div>
 										<div className="mt-16">
-											<Link className="tf-btn style-default btn-color-secondary pd-28" href="https://youtu.be/tSpmJtLo8SU" target="_blank" rel="noopener noreferrer">
+											<Link className="tf-btn style-default btn-color-secondary pd-28 hidden" href="https://youtu.be/tSpmJtLo8SU" target="_blank" rel="noopener noreferrer">
 												<span>Watch Video <i className="icon-ArrowRight" /></span>
 											</Link>
 										</div>
 										<div className="box-listings mt-20">
 											<h5 className="title text-1 fw-5">Apply Now</h5>
 											<p className="text-1">Email your resume to <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link></p>
-											<Link className="tf-btn style-default btn-color-secondary pd-28" href="mailto:servicerequests@optimumcarecounseling.com?subject=Career%20Application%20-%20Optimum%20Care%20Counseling"><span>Apply via Email</span></Link>
+											<Link className="tf-btn style-default btn-color-secondary pd-28 hidden" href="mailto:servicerequests@optimumcarecounseling.com?subject=Career%20Application%20-%20Optimum%20Care%20Counseling"><span>Apply via Email</span></Link>
 										</div>
 									</div>
 								</div>
@@ -132,7 +132,7 @@ export default function CareerPage() {
 
 								<div className="heading-section text-center mt-40">
 									<p className="description text-1 lh-30">If you are interested in applying, please reach out to <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link>, and include your resume in your email to us!</p>
-									<Link className="tf-btn style-default btn-color-secondary pd-40" href="mailto:servicerequests@optimumcarecounseling.com?subject=Career%20Application%20-%20Optimum%20Care%20Counseling"><span>Apply via Email</span></Link>
+									<Link className="tf-btn style-default btn-color-secondary pd-40 hidden" href="mailto:servicerequests@optimumcarecounseling.com?subject=Career%20Application%20-%20Optimum%20Care%20Counseling"><span>Apply via Email</span></Link>
 								</div>
 							</div>
 						</div>
