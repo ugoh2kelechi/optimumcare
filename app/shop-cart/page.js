@@ -78,7 +78,7 @@ export default function ShopCart() {
 						<div className="col-lg-8">
 							<div className="heading">
 								<div className="time">
-									<img src="/images/item/fire.png" alt="healingy" />
+									<img src="/images/item/fire.png" alt="occws" />
 									<p className="text-2">
 										Your cart will expire in{" "}
 										<Countdown endDateTime={currentTime.setDate(currentTime.getDate() + 2)} /> minutes! Please
@@ -264,7 +264,7 @@ export default function ShopCart() {
 										<span>Process To Checkout</span>
 									</Link>
 									<p className="fw-6">Or continue shopping</p>
-									<img src="/images/item/payment-group.jpg" alt="healingy" />
+									<img src="/images/item/payment-group.jpg" alt="occws" />
 								</div>
 							</div>
 						</div>
@@ -285,7 +285,7 @@ export default function ShopCart() {
 												className="lazyload"
 												data-src="/images/section/product-item-3.jpg"
 												src="/images/section/product-item-3.jpg"
-												alt="healingy"
+												alt="occws"
 											/>
 										</Link>
 										<div className="box-tags-item">
@@ -336,7 +336,7 @@ export default function ShopCart() {
 												className="lazyload"
 												data-src="/images/section/product-item-4.jpg"
 												src="/images/section/product-item-4.jpg"
-												alt="healingy"
+												alt="occws"
 											/>
 										</Link>
 										<div className="box-tags-item">
@@ -388,7 +388,7 @@ export default function ShopCart() {
 												className="lazyload"
 												data-src="/images/section/product-item-8.jpg"
 												src="/images/section/product-item-8.jpg"
-												alt="healingy"
+												alt="occws"
 											/>
 										</Link>
 										<div className="list-product-btn">
@@ -433,7 +433,7 @@ export default function ShopCart() {
 												className="lazyload"
 												data-src="/images/section/product-item-10.jpg"
 												src="/images/section/product-item-10.jpg"
-												alt="healingy"
+												alt="occws"
 											/>
 										</Link>
 										<div className="box-tags-item">
@@ -486,4 +486,3 @@ export default function ShopCart() {
 		</Layout>
 	)
 }
-
