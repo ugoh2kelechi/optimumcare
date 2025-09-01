@@ -13,11 +13,11 @@ export default function ServiceDetails() {
 							<div className="col-lg-8">
 								<div className="content-inner">
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/section-service-details.jpg" src="/images/section/section-service-details.jpg" alt="healingy" />
+										<img className="lazyload" data-src="/images/section/section-service-details.jpg" src="/images/section/section-service-details.jpg" alt="occws" />
 									</div>
 									<div className="heading">
 										<h4 className="mb-16">About Individual Counseling Services</h4>
-										<p className="text-1 lh-30">At Healingy, our Family Therapy services focus on improving
+										<p className="text-1 lh-30">At Optimum Care Counseling and Wellness Solutions, our Family Therapy services focus on improving
 											communication, resolving conflicts, and fostering stronger family relationships.
 											Our licensed therapists work with all members of the family to identify
 											underlying issues and create a supportive environment where everyone feels heard
@@ -29,7 +29,7 @@ export default function ServiceDetails() {
 									<div className="benefits">
 										<div className="heading">
 											<h4 className="mb-16">The Benefits They Have Gained From Using It</h4>
-											<p className="text-1 lh-30">Clients who have used Healingy's therapy services have
+											<p className="text-1 lh-30">Clients who have used Optimum Care Counseling and Wellness Solutions’ therapy services have
 												experienced reduced stress and anxiety, better communication, and stronger
 												relationships. They’ve gained self-awareness, resilience, and a renewed
 												sense of purpose. Our personalized approach ensures clients leave with the
@@ -88,7 +88,7 @@ export default function ServiceDetails() {
 											<div className="tf-accordion-item">
 												<div className="accordion-header">
 													<h5 className="title collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-														What types of therapy do you offer at Healingy?
+														What types of therapy do you offer at Optimum Care Counseling and Wellness Solutions?
 														<span className="icon" />
 													</h5>
 												</div>
@@ -181,7 +181,7 @@ export default function ServiceDetails() {
 											<div className="team-item hover-img">
 												<div className="image-wrap ">
 													<Link href="/therapists-details">
-														<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="occws" />
 													</Link>
 												</div>
 												<div className="info">
@@ -207,7 +207,7 @@ export default function ServiceDetails() {
 											<div className="team-item hover-img">
 												<div className="image-wrap ">
 													<Link href="/therapists-details">
-														<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="occws" />
 													</Link>
 												</div>
 												<div className="info">
