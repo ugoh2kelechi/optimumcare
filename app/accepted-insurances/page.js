@@ -19,20 +19,33 @@ export default function AcceptedInsurances() {
 								</div>
 								<div className="grid-layout-3 gap-20">
 									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-										<h5 className="title">Commercial Plans</h5>
+										<h5 className="title">Accepted Insurances</h5>
 										<ul className="list-disc text-1">
-											<li>Aetna</li>
-											<li>Blue Cross Blue Shield</li>
+											<li>Aetna <span className="text-2">(Not Aetna Better Health)</span></li>
+											<li>AmeriHealth Administrators <span className="text-2">(NOT AmeriHealth Caritas Or AmeriHealth Mercy)</span></li>
+											<li>Keystone Health Plan East <span className="text-2">(Not Keystone First)</span></li>
+											<li>Anthem Blue Cross Blue Shield</li>
+											<li>Blue Cross Blue Shield | BlueCross and BlueShield</li>
 											<li>Cigna</li>
-											<li>UnitedHealthcare/Optum</li>
+											<li>Geisinger</li>
+											<li>Humana</li>
+											<li>Highmark</li>
+											<li>Independence Blue Cross</li>
+											<li>Magellan <span className="text-2">(Not Medicaid or Medicare)</span></li>
+											<li>Muli-Plans</li>
+											<li>Optum</li>
+											<li>Tricare East</li>
+											<li>UMR</li>
+											<li>UnitedHealthcare</li>
+											<li>UPMC</li>
 										</ul>
 									</div>
 									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
-										<h5 className="title">Government Programs</h5>
+										<h5 className="title">Insurances Not Accepted</h5>
 										<ul className="list-disc text-1">
-											<li>Medicare (select plans)</li>
-											<li>Medicaid (state-specific)</li>
-											<li>Tricare</li>
+											<li>Medicaid</li>
+											<li>Medicare</li>
+											<li>Capital Blue Cross</li>
 										</ul>
 									</div>
 									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
