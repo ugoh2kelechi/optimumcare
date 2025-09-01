@@ -112,6 +112,18 @@ export default function OffcanvasMobileMenu() {
 									<li className={`menu-item ${checkCurrentMenuItem('/pay-online')}`}>
 										<Link href="/pay-online" onClick={closeOffcanvas}>Pay Online</Link>
 									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/reviews')}`}>
+										<Link href="/reviews" onClick={closeOffcanvas}>Reviews</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/career')}`}>
+										<Link href="/career" onClick={closeOffcanvas}>Career</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/learning-reference')}`}>
+										<Link href="/learning-reference" onClick={closeOffcanvas}>Learning Reference</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/country-crisis-intervention')}`}>
+										<Link href="/country-crisis-intervention" onClick={closeOffcanvas}>Country Crisis Intervention</Link>
+									</li>
 								</ul>
 							</div>
 						</li>
