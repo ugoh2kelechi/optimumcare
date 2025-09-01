@@ -12,7 +12,7 @@ export default function About3() {
 							<div className="col-md-6 ">
 								<div className="box-about">
 									<div className="icon wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-										<img src="/images/item/favicon.png" alt="healingy" />
+										<img src="/images/item/favicon.png" alt="occws" />
 									</div>
 									<div className="heading-section text-start ">
 										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
@@ -83,7 +83,7 @@ export default function About3() {
 							</div>
 							<div className="col-md-6 col-xl-5 offset-xl-1 offset-0">
 								<div className="image-wrap wow fadeInRight effec-overlay" data-wow-duration={1000} data-wow-delay="0s">
-									<img className="lazyload" data-src="/images/section/section-benefit.jpg" src="/images/section/section-benefit.jpg" alt="healingy" />
+									<img className="lazyload" data-src="/images/section/section-benefit.jpg" src="/images/section/section-benefit.jpg" alt="occws" />
 								</div>
 							</div>
 						</div>
@@ -96,4 +96,3 @@ export default function About3() {
 
 	)
 }
-
