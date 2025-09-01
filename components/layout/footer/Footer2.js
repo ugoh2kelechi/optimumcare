@@ -53,7 +53,7 @@ export default function Footer2() {
 								<div className="footer-left">
 									<div className="footer-logo">
 										<Link href="/">
-											<img id="logo_footer" src="/images/logo/footer-logo.png" data-retina="./images/logo/footer-logo@2x.png" alt="occws" />
+											<img id="logo_footer" src="https://cdn.builder.io/api/v1/image/assets%2Fab3018047d0c4b508dd0b16003d9a634%2F533d51780c52493abea07782a32fa659" data-retina="./images/logo/footer-logo@2x.png" alt="occws" />
 										</Link>
 									</div>
 									<p className="description">We provide a safe space where you can find peace within yourself.
