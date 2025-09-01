@@ -10,9 +10,9 @@ export default function ReviewsPage() {
 						<div className="row">
 							<div className="col-12">
 								<div className="heading-section text-center">
-									<p className="text-2 sub">Client Testimonials</p>
-									<h3>Real Stories. Real Progress.</h3>
-									<p className="description text-1 lh-30">Feedback from individuals and families who trusted us on their healing journey.</p>
+									<p className="text-2 sub">HOW WAS YOUR EXPERIENCE?</p>
+									<h3>Leave A Google Review</h3>
+									<p className="description text-1 lh-30">If you have time, please leave us a Google review about your experience with Optimum Care Counseling! It would be much appreciated. Like you, we’re striving to make improvements every day.</p>
 								</div>
 
 								<div className="grid-layout-3 gap-30">
@@ -74,8 +74,8 @@ export default function ReviewsPage() {
 
 								<div className="heading-section text-center mt-40">
 									<p className="text-2 sub">Share Your Experience</p>
-									<p className="description text-1 lh-30">We welcome your feedback. It helps us continue to improve our services.</p>
-									<Link className="tf-btn style-default btn-color-secondary pd-40" href="/contact-us"><span>Contact Us</span></Link>
+									<p className="description text-1 lh-30">Your feedback helps us improve every day.</p>
+									<Link className="tf-btn style-default btn-color-secondary pd-40" href="https://www.google.com/maps/place/Optimum+Care+Counseling+%26+Wellness+Solutions,+LLC/@40.3464489,-75.9578904,17z/data=!3m1!4b1!4m6!3m5!1s0x89c673a3400bd545:0xe6dcee4b4e70729!8m2!3d40.3464489!4d-75.9578904!16s%2Fg%2F1263wt163?entry=ttu&g_ep=EgoyMDI0MTExMy4xIKXMDSoASAFQAw%3D%3D" target="_blank" rel="noopener noreferrer"><span>Leave A Review</span></Link>
 								</div>
 							</div>
 						</div>
