@@ -72,6 +72,11 @@ export default function OffcanvasMobileMenu() {
 								</ul>
 							</div>
 						</li>
+						<li className={`menu-item ${checkCurrentMenuItem('/about')}`}>
+							<Link href="/about" className="item-menu-mobile" onClick={closeOffcanvas}>
+								About
+							</Link>
+						</li>
 
 						<li className={`menu-item ${checkCurrentMenuItem('/book-appointment')}`}>
 							<Link href="/book-appointment" className="item-menu-mobile" onClick={closeOffcanvas}>
