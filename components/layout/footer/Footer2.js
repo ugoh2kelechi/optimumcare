@@ -180,7 +180,7 @@ export default function Footer2() {
 								</div>
 							</div>
 							<div className="footer-bottom">
-								<p>Copyright {new Date().getFullYear()} Healingy By <Link href="https://themeforest.net/user/themesflat" target="_blank">ThemesFlat.com</Link> All rights reserved</p>
+								<p>Copyright {new Date().getFullYear()} Healingy By <Link href="https://themeforest.net/user/themesflat" target="_blank">UgohSolutions.com</Link> All rights reserved</p>
 								<ul className="content-right">
 									<li><Link href="/shop">Terms Of Services</Link></li>
 									<li><Link href="/contact-us"> Privacy Policy</Link></li>

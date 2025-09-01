@@ -46,7 +46,7 @@ export default function Testimonials5() {
 																	<h6 className="title ">
 																		<Link href="therapists-details.html">John Smith</Link>
 																	</h6>
-																	<p>CEO THEMES FLAT</p>
+																	<p>CEO Ugoh Solutions LLC</p>
 																</div>
 																<Link href="therapists-details.html" className="tf-btn-link wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 																	<span data-text="Read More Stories">Read More
@@ -79,7 +79,7 @@ export default function Testimonials5() {
 																	<h6 className="title ">
 																		<Link href="therapists-details.html">John Smith</Link>
 																	</h6>
-																	<p>CEO THEMES FLAT</p>
+																	<p>CEO Ugoh Solutions LLC</p>
 																</div>
 																<Link href="therapists-details.html" className="tf-btn-link">
 																	<span data-text="Read More Stories">Read More
@@ -112,7 +112,7 @@ export default function Testimonials5() {
 																	<h6 className="title ">
 																		<Link href="therapists-details.html">John Smith</Link>
 																	</h6>
-																	<p>CEO THEMES FLAT</p>
+																	<p>CEO Ugoh Solutions LLC</p>
 																</div>
 																<Link href="therapists-details.html" className="tf-btn-link">
 																	<span data-text="Read More Stories">Read More

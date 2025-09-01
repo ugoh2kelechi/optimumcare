@@ -30,7 +30,7 @@ export default function Testimonials4() {
 												<Link href="/therapists-details">John Smith</Link>
 											</h6>
 											<span className="fw-5">//</span>
-											<p> CEO THEMES FLAT</p>
+											<p> CEO Ugoh Solutions LLC</p>
 										</div>
 									</div>
 								</div>
@@ -56,7 +56,7 @@ export default function Testimonials4() {
 												<Link href="/therapists-details">John Smith</Link>
 											</h6>
 											<span className="fw-5">//</span>
-											<p> CEO THEMES FLAT</p>
+											<p> CEO Ugoh Solutions LLC</p>
 										</div>
 									</div>
 								</div>
@@ -82,7 +82,7 @@ export default function Testimonials4() {
 												<Link href="/therapists-details">John Smith</Link>
 											</h6>
 											<span className="fw-5">//</span>
-											<p> CEO THEMES FLAT</p>
+											<p> CEO Ugoh Solutions LLC</p>
 										</div>
 									</div>
 								</div>
@@ -99,4 +99,3 @@ export default function Testimonials4() {
 
 	)
 }
-
