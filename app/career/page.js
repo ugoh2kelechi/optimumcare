@@ -45,8 +45,7 @@ export default function CareerPage() {
 										<div className="box-listings mt-20">
 											<h5 className="title text-1 fw-5">Apply Now</h5>
 											<p className="text-1">Email your resume to <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link></p>
-											<Link className="tf-btn style-default btn-color-secondary pd-28 hidden" href="mailto:servicerequests@optimumcarecounseling.com?subject=Career%20Application%20-%20Optimum%20Care%20Counseling"><span>Apply via Email</span></Link>
-										</div>
+											</div>
 									</div>
 								</div>
 
