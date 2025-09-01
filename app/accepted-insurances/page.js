@@ -1,6 +1,5 @@
 'use client'
 import Layout from "@/components/layout/Layout"
-import Link from 'next/link'
 
 export default function AcceptedInsurances() {
 	return (
@@ -51,7 +50,6 @@ export default function AcceptedInsurances() {
 									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 										<h5 className="title">Out-of-Network & Self-Pay</h5>
 										<p className="text-1 lh-30">We provide itemized receipts (superbills) for out-of-network reimbursement. Flexible self-pay options are available.</p>
-										<Link href="/contact-us" className="tf-btn style-default btn-color-secondary pd-20 mt-16"><span>Verify Coverage</span></Link>
 									</div>
 								</div>
 
