@@ -32,7 +32,7 @@ export default function BlogDetails() {
 										</ul>
 									</div>
 									<div className="main-image">
-										<img className="lazyload" data-src="/images/blog/blog-details-1.jpg" src="/images/blog/blog-details-1.jpg" alt="healingy" />
+										<img className="lazyload" data-src="/images/blog/blog-details-1.jpg" src="/images/blog/blog-details-1.jpg" alt="occws" />
 									</div>
 									<div className="wrap-paragrahp">
 										<p className="text-1 lh-30 fw-4 mb-13">Lorem ipsum dolor sit amet, consectetur
@@ -51,10 +51,10 @@ export default function BlogDetails() {
 									</div>
 									<div className="group-image">
 										<div className="image-wrap">
-											<img className="lazyload" data-src="/images/blog/blog-details-3.jpg" src="/images/blog/blog-details-3.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/blog/blog-details-3.jpg" src="/images/blog/blog-details-3.jpg" alt="occws" />
 										</div>
 										<div className="image-wrap">
-											<img className="lazyload" data-src="/images/blog/blog-details-2.jpg" src="/images/blog/blog-details-2.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/blog/blog-details-2.jpg" src="/images/blog/blog-details-2.jpg" alt="occws" />
 										</div>
 									</div>
 									<h4 className="mb-16">How To Deal With Employee Quitting</h4>
@@ -201,7 +201,7 @@ export default function BlogDetails() {
 											<div className="comment-blog">
 												<div className="author">
 													<div className="avatar">
-														<img src="/images/avatar/avatar-1.jpg" alt="healingy" />
+														<img src="/images/avatar/avatar-1.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -236,7 +236,7 @@ export default function BlogDetails() {
 													<div className="comment-blog">
 														<div className="author">
 															<div className="avatar">
-																<img src="/images/avatar/avatar-2.jpg" alt="healingy" />
+																<img src="/images/avatar/avatar-2.jpg" alt="occws" />
 															</div>
 															<div className="content">
 																<ul className="meta">
@@ -275,7 +275,7 @@ export default function BlogDetails() {
 											<div className="comment-blog">
 												<div className="author">
 													<div className="avatar">
-														<img src="/images/avatar/avatar-3.jpg" alt="healingy" />
+														<img src="/images/avatar/avatar-3.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -338,7 +338,7 @@ export default function BlogDetails() {
 									<div className="article-blog-item  hover-img ">
 										<div className="image-wrap">
 											<Link href="/blog-details">
-												<img className="lazyload" data-src="/images/blog/blog-8.jpg" src="/images/blog/blog-8.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/blog/blog-8.jpg" src="/images/blog/blog-8.jpg" alt="occws" />
 											</Link>
 											<div className="date-time">
 												<div className="content">
@@ -359,7 +359,7 @@ export default function BlogDetails() {
 										<div className="box-listings hover-img">
 											<div className="image-wrap">
 												<Link href="/blog-details">
-													<img src="/images/blog/blog-details-list-1.jpg" alt="healingy" />
+													<img src="/images/blog/blog-details-list-1.jpg" alt="occws" />
 												</Link>
 											</div>
 											<div className="content">
@@ -375,7 +375,7 @@ export default function BlogDetails() {
 										<div className="box-listings hover-img">
 											<div className="image-wrap">
 												<Link href="/blog-details">
-													<img src="/images/blog/blog-details-list-2.jpg" alt="healingy" />
+													<img src="/images/blog/blog-details-list-2.jpg" alt="occws" />
 												</Link>
 											</div>
 											<div className="content">
@@ -391,7 +391,7 @@ export default function BlogDetails() {
 										<div className="box-listings hover-img">
 											<div className="image-wrap">
 												<Link href="/blog-details">
-													<img src="/images/blog/blog-details-list-3.jpg" alt="healingy" />
+													<img src="/images/blog/blog-details-list-3.jpg" alt="occws" />
 												</Link>
 											</div>
 											<div className="content">
@@ -407,7 +407,7 @@ export default function BlogDetails() {
 										<div className="box-listings hover-img">
 											<div className="image-wrap">
 												<Link href="/blog-details">
-													<img src="/images/blog/blog-details-list-4.jpg" alt="healingy" />
+													<img src="/images/blog/blog-details-list-4.jpg" alt="occws" />
 												</Link>
 											</div>
 											<div className="content">
@@ -442,7 +442,7 @@ export default function BlogDetails() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -468,7 +468,7 @@ export default function BlogDetails() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -493,7 +493,7 @@ export default function BlogDetails() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -518,7 +518,7 @@ export default function BlogDetails() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -544,7 +544,7 @@ export default function BlogDetails() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -569,7 +569,7 @@ export default function BlogDetails() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
