@@ -12,7 +12,7 @@ export default function Hero4() {
 				<Swiper {...sliderPageTitleHome} className="swiper-container slide-effect-fade  slider-page-title-home">
 					<div className="swiper-wrapper">
 						<SwiperSlide>
-							<img className="lazyload" data-src="/images/page-title/page-title-home-4.1.jpg" src="/images/page-title/page-title-home-4.1.jpg" alt="healingy" />
+							<img className="lazyload" data-src="/images/page-title/page-title-home-4.1.jpg" src="/images/page-title/page-title-home-4.1.jpg" alt="occws" />
 							<div className="content-inner">
 								<div className="tf-container">
 									<div className="row">
@@ -38,7 +38,7 @@ export default function Hero4() {
 							</div>
 						</SwiperSlide>
 						<SwiperSlide>
-							<img className="lazyload" data-src="/images/page-title/page-title-home-4.2.jpg" src="/images/page-title/page-title-home-4.2.jpg" alt="healingy" />
+							<img className="lazyload" data-src="/images/page-title/page-title-home-4.2.jpg" src="/images/page-title/page-title-home-4.2.jpg" alt="occws" />
 							<div className="content-inner">
 								<div className="tf-container">
 									<div className="row">
@@ -64,7 +64,7 @@ export default function Hero4() {
 							</div>
 						</SwiperSlide>
 						<SwiperSlide>
-							<img className="lazyload" data-src="/images/page-title/page-title-home-4.3.jpg" src="/images/page-title/page-title-home-4.3.jpg" alt="healingy" />
+							<img className="lazyload" data-src="/images/page-title/page-title-home-4.3.jpg" src="/images/page-title/page-title-home-4.3.jpg" alt="occws" />
 							<div className="content-inner">
 								<div className="tf-container">
 									<div className="row">
