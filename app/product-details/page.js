@@ -24,7 +24,7 @@ export default function ProductDetails() {
 										data-zoom="images/section/product-details.jpg"
 										data-src="/images/section/product-details.jpg"
 										src="/images/section/product-details.jpg"
-										alt="healingy"
+										alt="occws"
 									/>
 								</div>
 							</div>
@@ -169,7 +169,7 @@ export default function ProductDetails() {
 												SKU:<span>&nbsp; 53453412</span>
 											</li>
 											<li>
-												Vendor: <span>Healingy</span>
+												Vendor: <span>Optimum Care Counseling and Wellness Solutions</span>
 											</li>
 											<li>
 												Available:<span>Instock</span>
@@ -306,7 +306,7 @@ export default function ProductDetails() {
 														<div className="comment-blog">
 															<div className="author">
 																<div className="avatar">
-																	<img src="/images/avatar/avatar-1.jpg" alt="healingy" />
+																	<img src="/images/avatar/avatar-1.jpg" alt="occws" />
 																</div>
 																<div className="content">
 																	<ul className="meta">
@@ -354,7 +354,7 @@ export default function ProductDetails() {
 																<div className="comment-blog">
 																	<div className="author">
 																		<div className="avatar">
-																			<img src="/images/avatar/avatar-2.jpg" alt="healingy" />
+																			<img src="/images/avatar/avatar-2.jpg" alt="occws" />
 																		</div>
 																		<div className="content">
 																			<ul className="meta">
@@ -403,7 +403,7 @@ export default function ProductDetails() {
 														<div className="comment-blog " id="comment">
 															<div className="author">
 																<div className="avatar">
-																	<img src="/images/avatar/avatar-3.jpg" alt="healingy" />
+																	<img src="/images/avatar/avatar-3.jpg" alt="occws" />
 																</div>
 																<div className="content">
 																	<ul className="meta">
@@ -526,7 +526,7 @@ export default function ProductDetails() {
 													className="lazyload"
 													data-src="/images/section/product-item-3.jpg"
 													src="/images/section/product-item-3.jpg"
-													alt="healingy"
+													alt="occws"
 												/>
 											</Link>
 											<div className="box-tags-item">
@@ -577,7 +577,7 @@ export default function ProductDetails() {
 													className="lazyload"
 													data-src="/images/section/product-item-4.jpg"
 													src="/images/section/product-item-4.jpg"
-													alt="healingy"
+													alt="occws"
 												/>
 											</Link>
 											<div className="box-tags-item">
@@ -629,7 +629,7 @@ export default function ProductDetails() {
 													className="lazyload"
 													data-src="/images/section/product-item-8.jpg"
 													src="/images/section/product-item-8.jpg"
-													alt="healingy"
+													alt="occws"
 												/>
 											</Link>
 											<div className="list-product-btn">
@@ -674,7 +674,7 @@ export default function ProductDetails() {
 													className="lazyload"
 													data-src="/images/section/product-item-10.jpg"
 													src="/images/section/product-item-10.jpg"
-													alt="healingy"
+													alt="occws"
 												/>
 											</Link>
 											<div className="box-tags-item">
@@ -728,4 +728,3 @@ export default function ProductDetails() {
 		</>
 	)
 }
-
