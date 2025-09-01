@@ -16,9 +16,7 @@ export default function About() {
 						<div className="row ">
 							<div className="col-12 ">
 								<div className="heading-section  ">
-									<h2 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Welcome The
-										Optimum Care Counseling and Wellness Solutions
-									</h2>
+									<h2 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Our Goal Is To Help</h2>
 									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">It is a trusted counseling and therapy center,
 										staffed by experienced professionals dedicated to listening, <br /> supporting, and
 										guiding you. We believe in everyone's potential to heal and grow with the right
