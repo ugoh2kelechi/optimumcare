@@ -104,40 +104,6 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 							</a>
 							<div id="dropdown-menu-three" className={`collapse ${isAccordion === 3 ? 'show' : ''}`} data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
-									<li
-										className={`menu-item menu-item-has-children-mobile-2 ${checkParentActive([
-											'/our-product',
-											'/shop-cart',
-											'/shop-check-out',
-											'/product-details',
-										])}`}
-									>
-										<a
-											href="/#sub-product-one"
-											className="item-menu-mobile collapsed"
-											onClick={() => handleAccordion(4)}
-											aria-expanded="true"
-											aria-controls="sub-product-one"
-										>
-											Shop
-										</a>
-										<div id="sub-product-one" className={`collapse ${isAccordion === 4 ? 'show' : ''}`}>
-											<ul className="sub-mobile">
-												<li className={`menu-item ${checkCurrentMenuItem('/our-product')}`}>
-													<Link href="/our-product">Shop Product</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/shop-cart')}`}>
-													<Link href="/shop-cart">Shop Cart</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/shop-check-out')}`}>
-													<Link href="/shop-check-out">Check Out</Link>
-												</li>
-												<li className={`menu-item ${checkCurrentMenuItem('/product-details')}`}>
-													<Link href="/product-details">Shop Details</Link>
-												</li>
-											</ul>
-										</div>
-									</li>
 								</ul>
 							</div>
 						</li>
