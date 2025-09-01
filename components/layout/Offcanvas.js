@@ -99,7 +99,7 @@ export default function OffcanvasMobileMenu() {
 								aria-expanded="true"
 								aria-controls="dropdown-menu-three"
 							>
-								Billing
+								Resources
 							</Link>
 							<div id="dropdown-menu-three" className="collapse" data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
