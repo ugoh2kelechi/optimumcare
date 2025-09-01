@@ -5,7 +5,7 @@ export default function BlogGrid() {
 	return (
 		<>
 
-			<Layout breadcrumbTitle="Blogs" mainContentCls="main-content page-blog">
+			<Layout breadcrumbTitle="News & Blog" mainContentCls="main-content page-blog">
 				<div className="main-content page-blog">
 					{/* .section-blog-grid */}
 					<section className="section-blog-grid">
@@ -15,7 +15,7 @@ export default function BlogGrid() {
 									<div className="grid-layout-3">
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -27,7 +27,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Therapy</p>
-												<h5 className="title"><Link href="/blog-details">Mindfulness For Better Mental
+												<h5 className="title"><Link href="/blog-details-2">Mindfulness For Better Mental
 													Health: Simple Practices for Daily Peace
 												</Link>
 												</h5>
@@ -37,7 +37,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-2.jpg" src="/images/blog/blog-2.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -49,7 +49,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Emotional Healing</p>
-												<h5 className="title"><Link href="/blog-details">Strengthening Relationships
+												<h5 className="title"><Link href="/blog-details-2">Strengthening Relationships
 													Through Communication
 												</Link>
 												</h5>
@@ -59,7 +59,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -71,7 +71,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Wellness</p>
-												<h5 className="title"><Link href="/blog-details">Self-Care for Emotional
+												<h5 className="title"><Link href="/blog-details-2">Self-Care for Emotional
 													Well-being: Key Steps to Feeling Balanced
 												</Link>
 												</h5>
@@ -81,7 +81,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -93,7 +93,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Wellness</p>
-												<h5 className="title"><Link href="/blog-details">How Therapy Helps with Trauma:
+												<h5 className="title"><Link href="/blog-details-2">How Therapy Helps with Trauma:
 													Pathways to Long-Term Healing
 												</Link>
 												</h5>
@@ -103,7 +103,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-5.jpg" src="/images/blog/blog-5.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -115,7 +115,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Stress Management</p>
-												<h5 className="title"><Link href="/blog-details">The Benefits of Cognitive
+												<h5 className="title"><Link href="/blog-details-2">The Benefits of Cognitive
 													Behavioral Therapy for Anxiety Relief
 												</Link>
 												</h5>
@@ -125,7 +125,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-6.jpg" src="/images/blog/blog-6.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -137,7 +137,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Anxiety Relief</p>
-												<h5 className="title"><Link href="/blog-details">How Therapy Can Help with
+												<h5 className="title"><Link href="/blog-details-2">How Therapy Can Help with
 													Overcoming Trauma
 												</Link>
 												</h5>
@@ -147,7 +147,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-7.jpg" src="/images/blog/blog-7.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -159,7 +159,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Personal Growth</p>
-												<h5 className="title"><Link href="/blog-details">The Role of Therapy in Managing
+												<h5 className="title"><Link href="/blog-details-2">The Role of Therapy in Managing
 													Stress and Burnout
 												</Link>
 												</h5>
@@ -169,7 +169,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-8.jpg" src="/images/blog/blog-8.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -181,7 +181,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Trauma Recovery</p>
-												<h5 className="title"><Link href="/blog-details">Individual Counseling: A
+												<h5 className="title"><Link href="/blog-details-2">Individual Counseling: A
 													Personalized Approach to Mental Wellness
 												</Link>
 												</h5>
@@ -191,7 +191,7 @@ export default function BlogGrid() {
 										</div>
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
-												<Link href="/blog-details">
+												<Link href="/blog-details-2">
 													<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
@@ -203,7 +203,7 @@ export default function BlogGrid() {
 											</div>
 											<div className="content">
 												<p className="sub">Mental Wellness</p>
-												<h5 className="title"><Link href="/blog-details">Mindfulness For Better Mental
+												<h5 className="title"><Link href="/blog-details-2">Mindfulness For Better Mental
 													Health: Simple Practices for Daily Peace
 												</Link>
 												</h5>
