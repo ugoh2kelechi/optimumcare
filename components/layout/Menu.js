@@ -171,19 +171,8 @@ export default function Menu() {
 						</li>
 					</ul>
 				</li>
-				<li className={`has-child relative ${checkParentActive(["/blog-grid", "/blog-details", "/blog-details-2"])}`}>
-					<Link href="/#">Blogs</Link>
-					<ul className="sub-menu">
-						<li className={checkCurrentMenuItem("/blog-grid")}>
-							<Link href="/blog-grid">Blog Grid</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/blog-details")}>
-							<Link href="/blog-details">Blog Details 1</Link>
-						</li>
-						<li className={checkCurrentMenuItem("/blog-details-2")}>
-							<Link href="/blog-details-2">Blog Details 2</Link>
-						</li>
-					</ul>
+				<li className={`item ${pathname.startsWith("/blog") ? "current-menu-item" : ""}`}>
+					<Link href="/blog-grid">News & Blog</Link>
 				</li>
 				{/* <li className={checkCurrentMenuItem("/contact-us")}> */}
 				<li className={`item ${pathname === "/contact-us" ? "current-menu-item" : ""}`}>
