@@ -34,7 +34,7 @@ export default function LearningReferencePage() {
 										{ pub: 'PSYCH JOURNAL', title: 'Measuring adult Attention Deficit Hyperactivity Disorder using the Quantified Behavior Test Plus.', href: 'https://onlinelibrary.wiley.com/doi/full/10.1002/pchj.17' },
 										{ pub: 'JOURNAL OF CLINICAL PSYCHOPHARMACOLOGYY', title: 'Does atomoxetine improve executive function, inhibitory control, and hyperactivity? Results from a placebo-controlled trial using quantitative measurement technology.', href: 'https://journals.lww.com/psychopharmacology/Abstract/2012/10000/Does_Atomoxetine_Improve_Executive_Function,.11.aspx' },
 										{ pub: 'JOURNAL OF CHILD AND ADOLESCENT PSYCHOPHARMACOLOGY', title: 'Modulation of attention-deficit/hyperactivity disorder symptoms by short- and long-acting methylphenidate over the course of a day.', href: 'https://pubmed.ncbi.nlm.nih.gov/22364402/' },
-										{ pub: 'CHILD AND ADOLESCENT MENTAL HEALTH', title: 'Early identification of stimulant treatment responders, partial responders and non-responders using objective measures in children and adolescents with hyperkinetic disorder.' },
+										{ pub: 'CHILD AND ADOLESCENT MENTAL HEALTH', title: 'Early identification of stimulant treatment responders, partial responders and non-responders using objective measures in children and adolescents with hyperkinetic disorder.', href: 'https://acamh.onlinelibrary.wiley.com/doi/full/10.1111/j.1475-3588.2010.00593.x' },
 									].map((item, idx) => (
 										<>
 											<div className="ref-cell text-1" key={`pub-${idx}`}>{item.pub}</div>
