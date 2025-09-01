@@ -34,8 +34,21 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			setScroll(window.scrollY > 100)
 		}
 
+		const onDocClick = (e) => {
+			const anchor = e.target.closest('a')
+			if (!anchor) return
+			const href = anchor.getAttribute('href')
+			if (href === '/#' || href === '#' || href === '') {
+				e.preventDefault()
+			}
+		}
+
 		window.addEventListener("scroll", onScroll)
-		return () => window.removeEventListener("scroll", onScroll)
+		document.addEventListener('click', onDocClick)
+		return () => {
+			window.removeEventListener("scroll", onScroll)
+			document.removeEventListener('click', onDocClick)
+		}
 	}, [])
 	return (
 		<><div id="top" />
