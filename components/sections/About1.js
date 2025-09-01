@@ -28,7 +28,7 @@ export default function About1() {
 										<span>Learn More About Us</span>
 									</Link>
 									<div className="item">
-										<img src="/images/section/section-about-1.jpg" alt="healingy" />
+										<img src="/images/section/section-about-1.jpg" alt="occws" />
 									</div>
 								</div>
 							</div>
