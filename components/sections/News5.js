@@ -14,7 +14,7 @@ export default function News5() {
 							<div className="heading-section ">
 								<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 									Favourite Topics</p>
-								<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Healingy Blog &amp;
+								<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Optimum Care Counseling and Wellness Solutions Blog &amp;
 									Resources</h3>
 								<p className="description text-1 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 									Your go-to source for mental health insights, tools, and
@@ -27,7 +27,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -50,7 +50,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -72,7 +72,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -95,7 +95,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -118,7 +118,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -140,7 +140,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
