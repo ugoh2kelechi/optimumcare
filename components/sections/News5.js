@@ -27,7 +27,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt />
+													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -50,7 +50,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt />
+													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -72,7 +72,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt />
+													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -95,7 +95,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt />
+													<img className="lazyload" data-src="/images/section/resources-2-1.jpg" src="/images/section/resources-2-1.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -118,7 +118,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt />
+													<img className="lazyload" data-src="/images/section/resources-2-2.jpg" src="/images/section/resources-2-2.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -140,7 +140,7 @@ export default function News5() {
 										<div className="article-blog-item  hover-img  style-2 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 											<div className="image-wrap">
 												<Link href="blog-details.html">
-													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt />
+													<img className="lazyload" data-src="/images/section/resources-2-3.jpg" src="/images/section/resources-2-3.jpg" alt="healingy" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -173,4 +173,3 @@ export default function News5() {
 
 	)
 }
-
