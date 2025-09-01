@@ -79,6 +79,11 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 								Therapists
 							</Link>
 						</li>
+						<li className={`menu-item ${checkCurrentMenuItem('/book-appointment')}`}>
+							<Link href="/book-appointment" className="item-menu-mobile">
+								Appointment Form
+							</Link>
+						</li>
 
 						<li
 							className={`menu-item menu-item-has-children-mobile ${checkParentActive([
