@@ -36,7 +36,7 @@ export default function Service3() {
 									</div>
 									<div className="image-wrap z-5 relative">
 										<Link href="/service-details">
-											<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/service-item-1.jpg" src="/images/section/service-item-1.jpg" alt="occws" />
 										</Link>
 									</div>
 									<Link href="/service-details" className="tf-btn-link z-5">
@@ -54,7 +54,7 @@ export default function Service3() {
 									</div>
 									<div className="image-wrap z-5 relative">
 										<Link href="/service-details">
-											<img className="lazyload" data-src="/images/section/service-item-2.jpg" src="/images/section/service-item-2.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/service-item-2.jpg" src="/images/section/service-item-2.jpg" alt="occws" />
 										</Link>
 									</div>
 									<Link href="/service-details" className="tf-btn-link z-5">
@@ -72,7 +72,7 @@ export default function Service3() {
 									</div>
 									<div className="image-wrap z-5 relative">
 										<Link href="/service-details">
-											<img className="lazyload" data-src="/images/section/service-item-3.jpg" src="/images/section/service-item-3.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/service-item-3.jpg" src="/images/section/service-item-3.jpg" alt="occws" />
 										</Link>
 									</div>
 									<Link href="/service-details" className="tf-btn-link z-5">
@@ -90,7 +90,7 @@ export default function Service3() {
 									</div>
 									<div className="image-wrap z-5 relative">
 										<Link href="/service-details">
-											<img className="lazyload" data-src="/images/section/service-item-4.jpg" src="/images/section/service-item-4.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/service-item-4.jpg" src="/images/section/service-item-4.jpg" alt="occws" />
 										</Link>
 									</div>
 									<Link href="/service-details" className="tf-btn-link z-5">
@@ -108,7 +108,7 @@ export default function Service3() {
 									</div>
 									<div className="image-wrap z-5 relative">
 										<Link href="/service-details">
-											<img className="lazyload" data-src="/images/section/service-item-5.jpg" src="/images/section/service-item-5.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/service-item-5.jpg" src="/images/section/service-item-5.jpg" alt="occws" />
 										</Link>
 									</div>
 									<Link href="/service-details" className="tf-btn-link z-5">
@@ -126,7 +126,7 @@ export default function Service3() {
 									</div>
 									<div className="image-wrap z-5 relative">
 										<Link href="/service-details">
-											<img className="lazyload" data-src="/images/section/service-item-6.jpg" src="/images/section/service-item-6.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/service-item-6.jpg" src="/images/section/service-item-6.jpg" alt="occws" />
 										</Link>
 									</div>
 									<Link href="/service-details" className="tf-btn-link z-5">
@@ -144,4 +144,3 @@ export default function Service3() {
 
 	)
 }
-

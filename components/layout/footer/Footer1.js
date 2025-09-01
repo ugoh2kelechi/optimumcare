@@ -11,7 +11,7 @@ export default function Footer1() {
 							<div className="footer-top">
 								<div className="footer-logo">
 									<Link href="/">
-										<img id="logo_footer" src="/images/logo/footer-logo.png" data-retina="./images/logo/footer-logo@2x.png" alt="healingy" />
+										<img id="logo_footer" src="/images/logo/footer-logo.png" data-retina="./images/logo/footer-logo@2x.png" alt="occws" />
 									</Link>
 								</div>
 								<div className="wrap-social">
@@ -142,7 +142,7 @@ export default function Footer1() {
 							</div>
 						</div>
 						<div className="footer-bottom">
-							<p>Copyright {new Date().getFullYear()} Healingy By <Link href="https://themeforest.net/user/themesflat" target="_blank">ThemesFlat.com</Link> All rights reserved</p>
+							<p>Copyright {new Date().getFullYear()} Optimum Care Counseling and Wellness Solutions By <Link href="https://themeforest.net/user/themesflat" target="_blank">UgohSolutions.com</Link> All rights reserved</p>
 							<ul className="content-right">
 								<li><Link href="/shop">Terms Of Services</Link></li>
 								<li><Link href="/contact-us"> Privacy Policy</Link></li>

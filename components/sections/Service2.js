@@ -52,7 +52,7 @@ export default function Service2() {
 									<div className="widget-content-inner" style={{ display: `${isTab == 1 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap wow fadeInLeft effec-overlay" data-wow-duration={1000} data-wow-delay="0s">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -61,7 +61,7 @@ export default function Service2() {
 														Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Healingy, our
+													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Optimum Care Counseling and Wellness Solutions, our
 														licensed
 														therapists
 														specialize in customized family therapy, helping families
@@ -81,7 +81,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 2 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -90,7 +90,7 @@ export default function Service2() {
 														Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Healingy, our
+													<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">At Optimum Care Counseling and Wellness Solutions, our
 														licensed
 														therapists
 														specialize in customized family therapy, helping families
@@ -110,7 +110,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 3 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -118,7 +118,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30">At Healingy, our licensed
+													<p className="description text-1 lh-30">At Optimum Care Counseling and Wellness Solutions, our licensed
 														therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
@@ -137,7 +137,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 4 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -145,7 +145,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1 lh-30">At Healingy, our licensed
+													<p className="description text-1 lh-30">At Optimum Care Counseling and Wellness Solutions, our licensed
 														therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
@@ -164,7 +164,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 5 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -172,7 +172,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1">At Healingy, our licensed therapists
+													<p className="description text-1">At Optimum Care Counseling and Wellness Solutions, our licensed therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
 														connections. We equip your family with the tools and guidance
@@ -190,7 +190,7 @@ export default function Service2() {
 									<div className="widget-content-inner " style={{ display: `${isTab == 6 ? "block" : "none"}` }}>
 										<div className="box-service">
 											<div className="image-wrap effec-overlay">
-												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/section-service.jpg" src="/images/section/section-service.jpg" alt="occws" />
 											</div>
 											<div className="content">
 												<div className="heading-section text-start ">
@@ -198,7 +198,7 @@ export default function Service2() {
 													<h4><Link href="/blog-details">Experienced Therapists Dedicated To
 														Your Family’s Emotional
 														Well-Being.</Link></h4>
-													<p className="description text-1">At Healingy, our licensed therapists
+													<p className="description text-1">At Optimum Care Counseling and Wellness Solutions, our licensed therapists
 														specialize in customized family therapy, helping families
 														address conflicts, enhance communication, and build deeper
 														connections. We equip your family with the tools and guidance
@@ -224,4 +224,3 @@ export default function Service2() {
 
 	)
 }
-

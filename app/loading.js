@@ -1,4 +1,3 @@
-
 export default function loading() {
 	return (
 		<>
@@ -9,7 +8,7 @@ export default function loading() {
 							<div className="loader">
 							</div>
 							<div className="icon">
-								<img src="/images/logo/favicon.png" alt="healingy" />
+								<img src="/images/logo/favicon.png" alt="occws" />
 							</div>
 						</div>
 					</div>

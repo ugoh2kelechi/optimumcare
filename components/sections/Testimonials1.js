@@ -29,17 +29,17 @@ export default function Testimonials1() {
 										<div className="swiper-wrapper">
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay ">
-													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-1.jpg" src="/images/section/testimonials-1.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 										</div>
@@ -69,7 +69,7 @@ export default function Testimonials1() {
 																<h6 className="title ">
 																	<Link href="/therapists-details">John Smith</Link>
 																</h6>
-																<p>CEO THEMES FLAT</p>
+																<p>CEO Ugoh Solutions LLC</p>
 															</div>
 															<Link href="/therapists-details" className="tf-btn-link">
 																<span data-text="Read More Stories">Read More
@@ -104,7 +104,7 @@ export default function Testimonials1() {
 																<h6 className="title ">
 																	<Link href="/therapists-details">John Smith</Link>
 																</h6>
-																<p>CEO THEMES FLAT</p>
+																<p>CEO Ugoh Solutions LLC</p>
 															</div>
 															<Link href="/therapists-details" className="tf-btn-link">
 																<span data-text="Read More Stories">Read More
@@ -139,7 +139,7 @@ export default function Testimonials1() {
 																<h6 className="title ">
 																	<Link href="/#">John Smith</Link>
 																</h6>
-																<p>CEO THEMES FLAT</p>
+																<p>CEO Ugoh Solutions LLC</p>
 															</div>
 															<Link href="/therapists-details" className="tf-btn-link">
 																<span data-text="Read More Stories">Read More
@@ -206,4 +206,3 @@ export default function Testimonials1() {
 
 	)
 }
-

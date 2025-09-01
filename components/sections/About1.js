@@ -11,7 +11,7 @@ export default function About1() {
 							<div className="col-lg-8 ">
 								<div className="box-about">
 									<div className="heading-section animate__bounce" data-wow-duration={1000}>
-										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000}>About Healingy</p>
+										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000}>About Optimum Care Counseling and Wellness Solutions</p>
 										<h3 className="wow fadeInUp" data-wow-duration={1000}>We Provide Professional,
 											Dedicated, And Experienced Psychological Support
 										</h3>
@@ -28,7 +28,7 @@ export default function About1() {
 										<span>Learn More About Us</span>
 									</Link>
 									<div className="item">
-										<img src="/images/section/section-about-1.jpg" alt="healingy" />
+										<img src="/images/section/section-about-1.jpg" alt="occws" />
 									</div>
 								</div>
 							</div>
@@ -40,4 +40,3 @@ export default function About1() {
 		</>
 	)
 }
-

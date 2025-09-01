@@ -72,7 +72,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img  ">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-1.jpg" src="/images/section/product-item-1.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-1.jpg" src="/images/section/product-item-1.jpg" alt="occws" />
 											</Link>
 											<div className="box-tags-item">
 												<Link href="/#" className="item text-2 sale">-32%</Link>
@@ -114,7 +114,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-2.jpg" src="/images/section/product-item-2.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-2.jpg" src="/images/section/product-item-2.jpg" alt="occws" />
 											</Link>
 											<div className="box-tags-item">
 												<Link href="/#" className="item text-2 new"> NEW</Link>
@@ -156,7 +156,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-3.jpg" src="/images/section/product-item-3.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-3.jpg" src="/images/section/product-item-3.jpg" alt="occws" />
 											</Link>
 											<div className="box-tags-item">
 												<Link href="/#" className="item text-2 new"> NEW</Link>
@@ -198,7 +198,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-4.jpg" src="/images/section/product-item-4.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-4.jpg" src="/images/section/product-item-4.jpg" alt="occws" />
 											</Link>
 											<div className="box-tags-item">
 												<Link href="/#" className="item text-2 sale">-32%</Link>
@@ -240,7 +240,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-5.jpg" src="/images/section/product-item-5.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-5.jpg" src="/images/section/product-item-5.jpg" alt="occws" />
 											</Link>
 											<div className="list-product-btn">
 												<div className="box-wishlist btn-icon tf-action-btns hover-tooltip">
@@ -279,7 +279,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-6.jpg" src="/images/section/product-item-6.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-6.jpg" src="/images/section/product-item-6.jpg" alt="occws" />
 											</Link>
 											<div className="box-tags-item">
 												<Link href="/#" className="item text-2 new"> NEW</Link>
@@ -321,7 +321,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-7.jpg" src="/images/section/product-item-7.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-7.jpg" src="/images/section/product-item-7.jpg" alt="occws" />
 											</Link>
 											<div className="list-product-btn">
 												<div className="box-wishlist btn-icon tf-action-btns hover-tooltip">
@@ -360,7 +360,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-8.jpg" src="/images/section/product-item-8.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-8.jpg" src="/images/section/product-item-8.jpg" alt="occws" />
 											</Link>
 											<div className="list-product-btn">
 												<div className="box-wishlist btn-icon tf-action-btns hover-tooltip">
@@ -399,7 +399,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-9.jpg" src="/images/section/product-item-9.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-9.jpg" src="/images/section/product-item-9.jpg" alt="occws" />
 											</Link>
 											<div className="list-product-btn">
 												<div className="box-wishlist btn-icon tf-action-btns hover-tooltip">
@@ -438,7 +438,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-10.jpg" src="/images/section/product-item-10.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-10.jpg" src="/images/section/product-item-10.jpg" alt="occws" />
 											</Link>
 											<div className="box-tags-item">
 												<Link href="/#" className="item text-2 sale">-32%</Link>
@@ -480,7 +480,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-11.jpg" src="/images/section/product-item-11.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-11.jpg" src="/images/section/product-item-11.jpg" alt="occws" />
 											</Link>
 											<div className="list-product-btn">
 												<div className="box-wishlist btn-icon tf-action-btns hover-tooltip">
@@ -519,7 +519,7 @@ export default function OurProduct() {
 									<div className="product-item hover-img">
 										<div className="image-wrap">
 											<Link href="/product-details">
-												<img className="lazyload" data-src="/images/section/product-item-12.jpg" src="/images/section/product-item-12.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/product-item-12.jpg" src="/images/section/product-item-12.jpg" alt="occws" />
 											</Link>
 											<div className="box-tags-item">
 												<Link href="/#" className="item text-2 new"> NEW</Link>

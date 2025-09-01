@@ -30,7 +30,7 @@ export default function OffcanvasMobileMenu() {
 			<div className="offcanvas-header top-nav-mobile">
 				<div className="offcanvas-title">
 					<Link href="/">
-						<img src="/images/logo/Logo.png" alt="healingy" />
+						<img src="/images/logo/Logo.png" alt="occws" />
 					</Link>
 				</div>
 				<div data-bs-dismiss="offcanvas" aria-label="Close">
@@ -99,7 +99,7 @@ export default function OffcanvasMobileMenu() {
 								aria-expanded="true"
 								aria-controls="dropdown-menu-three"
 							>
-								Billing
+								Resources
 							</Link>
 							<div id="dropdown-menu-three" className="collapse" data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
@@ -111,6 +111,18 @@ export default function OffcanvasMobileMenu() {
 									</li>
 									<li className={`menu-item ${checkCurrentMenuItem('/pay-online')}`}>
 										<Link href="/pay-online" onClick={closeOffcanvas}>Pay Online</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/reviews')}`}>
+										<Link href="/reviews" onClick={closeOffcanvas}>Reviews</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/career')}`}>
+										<Link href="/career" onClick={closeOffcanvas}>Career</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/learning-reference')}`}>
+										<Link href="/learning-reference" onClick={closeOffcanvas}>Learning Reference</Link>
+									</li>
+									<li className={`menu-item ${checkCurrentMenuItem('/country-crisis-intervention')}`}>
+										<Link href="/country-crisis-intervention" onClick={closeOffcanvas}>Country Crisis Intervention</Link>
 									</li>
 								</ul>
 							</div>

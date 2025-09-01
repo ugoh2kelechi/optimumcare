@@ -21,7 +21,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 					</div>
 					<div className="top-logo">
 						<Link href="/" className="site-logo">
-							<img alt="healingy" src="/images/logo/Logo.png" />
+							<img alt="occws" src="/images/logo/Logo.png" />
 						</Link>
 					</div>
 					<div className="top-bar-right">
@@ -127,7 +127,7 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 						<div className="header-left">
 							<div className="header-logo-2">
 								<Link href="/" className="site-logo">
-									<img id="logo_header" alt="healingy" src="/images/logo/Logo.png" data-retina="images/logo/logo@2x.png" />
+									<img id="logo_header" alt="occws" src="/images/logo/Logo.png" data-retina="images/logo/logo@2x.png" />
 								</Link>
 							</div>
 							<nav className="main-menu mx-0">
@@ -135,13 +135,13 @@ export default function Header4({ scroll, isMobileMenu, handleMobileMenu }) {
 							</nav>
 							<div className="header-logo">
 								<Link href="/" className="site-logo">
-									<img id="logo_header" alt="healingy" src="/images/logo/Logo.png" data-retina="images/logo/logo@2x.png" />
+									<img id="logo_header" alt="occws" src="/images/logo/Logo.png" data-retina="images/logo/logo@2x.png" />
 								</Link>
 							</div>
 						</div>
 						<div className="header-right">
 							<div className="group-btn">
-								<Link className="btn-find" href="/#canvasSearch" data-bs-toggle="offcanvas">
+								<Link className="btn-find" href="#" data-bs-toggle="offcanvas" data-bs-target="#canvasSearch">
 									<div className="icon">
 										<i className="icon-MagnifyingGlass" />
 									</div>

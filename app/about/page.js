@@ -17,7 +17,7 @@ export default function About() {
 							<div className="col-12 ">
 								<div className="heading-section  ">
 									<h2 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Welcome The
-										Healingy
+										Optimum Care Counseling and Wellness Solutions
 									</h2>
 									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">It is a trusted counseling and therapy center,
 										staffed by experienced professionals dedicated to listening, <br /> supporting, and
@@ -27,12 +27,12 @@ export default function About() {
 								</div>
 								<div className="box-about">
 									<div className="image-wrap wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-										<img className="lazyload" data-src="/images/section/section-about-3.jpg" src="/images/section/section-about-3.jpg" alt="healingy" />
+										<img className="lazyload" data-src="/images/section/section-about-3.jpg" src="/images/section/section-about-3.jpg" alt="occws" />
 									</div>
 									<div className="wrap-content">
 										<div className="item wow fadeInLeft" data-wow-duration={1000} data-wow-delay="0s">
 											<h3>Our Mission</h3>
-											<p>At Healingy, our mission is to provide compassionate, personalized mental
+											<p>At Optimum Care Counseling and Wellness Solutions, our mission is to provide compassionate, personalized mental
 												health care that helps individuals and families overcome challenges. We are
 												committed to creating a safe, supportive space for healing and growth, using
 												evidence-based therapy to guide clients toward mental well-being.</p>
@@ -128,7 +128,7 @@ export default function About() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-1.jpg" src="/images/section/team-item-1.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-1.jpg" src="/images/section/team-item-1.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -154,7 +154,7 @@ export default function About() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -180,7 +180,7 @@ export default function About() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -206,7 +206,7 @@ export default function About() {
 									<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.3s">
 										<div className="image-wrap ">
 											<Link href="/therapists-details">
-												<img className="lazyload" data-src="/images/section/team-item-4.jpg" src="/images/section/team-item-4.jpg" alt="healingy" />
+												<img className="lazyload" data-src="/images/section/team-item-4.jpg" src="/images/section/team-item-4.jpg" alt="occws" />
 											</Link>
 										</div>
 										<div className="info">
@@ -284,7 +284,7 @@ export default function About() {
 									</div>
 									<div className="content">
 										<p className="text text-1 lh-30  fw-4 mb-16">
-											"The expertise and encouragement from Healingy made a significant
+											"The expertise and encouragement from Optimum Care Counseling and Wellness Solutions made a significant
 											difference in
 											my
 											life. The
@@ -315,7 +315,7 @@ export default function About() {
 									</div>
 									<div className="content">
 										<p className="text text-1 lh-30  fw-4 mb-16">
-											"Thanks to Healingy’s exceptional team, I have gained valuable
+											"Thanks to Optimum Care Counseling and Wellness Solutions’s exceptional team, I have gained valuable
 											insights and
 											tools to manage my stress effectively. The personalized care and
 											understanding
@@ -343,7 +343,7 @@ export default function About() {
 									</div>
 									<div className="content">
 										<p className="text text-1 lh-30  fw-4 mb-16">
-											"I can't thank Healingy enough for their unwavering support and
+											"I can't thank Optimum Care Counseling and Wellness Solutions enough for their unwavering support and
 											guidance. The
 											personalized therapy sessions and insightful feedback have been
 											crucial in my
@@ -399,7 +399,7 @@ export default function About() {
 									</div>
 									<div className="content">
 										<p className="text text-1 lh-30  fw-4 mb-16">
-											"The expertise and encouragement from Healingy made a significant
+											"The expertise and encouragement from Optimum Care Counseling and Wellness Solutions made a significant
 											difference in
 											my
 											life. The
@@ -430,7 +430,7 @@ export default function About() {
 									</div>
 									<div className="content">
 										<p className="text text-1 lh-30  fw-4 mb-16">
-											"Thanks to Healingy’s exceptional team, I have gained valuable
+											"Thanks to Optimum Care Counseling and Wellness Solutions’s exceptional team, I have gained valuable
 											insights and
 											tools to manage my stress effectively. The personalized care and
 											understanding
@@ -458,7 +458,7 @@ export default function About() {
 									</div>
 									<div className="content">
 										<p className="text text-1 lh-30  fw-4 mb-16">
-											"I can't thank Healingy enough for their unwavering support and
+											"I can't thank Optimum Care Counseling and Wellness Solutions enough for their unwavering support and
 											guidance. The
 											personalized therapy sessions and insightful feedback have been
 											crucial in my
@@ -494,7 +494,7 @@ export default function About() {
 									<div className="tf-accordion-item">
 										<div className="accordion-header">
 											<h5 className="title collapsed" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-												What types of therapy do you offer at Healingy?
+												What types of therapy do you offer at Optimum Care Counseling and Wellness Solutions?
 												<span className="icon" />
 											</h5>
 										</div>
@@ -639,7 +639,7 @@ export default function About() {
 										</Link>
 									</div>
 									<div className="image-wrap wow fadeInRight" data-wow-duration={1000} data-wow-delay="0s">
-										<img className="lazyload" data-src="/images/section/section-cta.png" src="/images/section/section-cta.png" alt="healingy" />
+										<img className="lazyload" data-src="/images/section/section-cta.png" src="/images/section/section-cta.png" alt="occws" />
 									</div>
 								</div>
 							</div>

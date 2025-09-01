@@ -12,15 +12,15 @@ export default function About3() {
 							<div className="col-md-6 ">
 								<div className="box-about">
 									<div className="icon wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-										<img src="/images/item/favicon.png" alt="healingy" />
+										<img src="/images/item/favicon.png" alt="occws" />
 									</div>
 									<div className="heading-section text-start ">
 										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-											About Healingy</p>
+											About Optimum Care Counseling and Wellness Solutions</p>
 										<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Trusted
 											professionals dedicated to your mental
 										</h3>
-										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Healingy is a reputable center for
+										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Optimum Care Counseling and Wellness Solutions is a reputable center for
 											counseling and
 											psychological therapy, with a team of experienced professionals ready to
 											listen and support you. We believe that everyone has the ability to heal and
@@ -83,7 +83,7 @@ export default function About3() {
 							</div>
 							<div className="col-md-6 col-xl-5 offset-xl-1 offset-0">
 								<div className="image-wrap wow fadeInRight effec-overlay" data-wow-duration={1000} data-wow-delay="0s">
-									<img className="lazyload" data-src="/images/section/section-benefit.jpg" src="/images/section/section-benefit.jpg" alt="healingy" />
+									<img className="lazyload" data-src="/images/section/section-benefit.jpg" src="/images/section/section-benefit.jpg" alt="occws" />
 								</div>
 							</div>
 						</div>
@@ -96,4 +96,3 @@ export default function About3() {
 
 	)
 }
-

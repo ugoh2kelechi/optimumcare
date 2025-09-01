@@ -27,15 +27,10 @@ export default function PatientOnlinePortal() {
 											<li>Update insurance and billing information</li>
 										</ul>
 									</div>
-									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
-										<h5 className="title">New Patients</h5>
-										<p className="text-1 lh-30">First time here? Create your account to get started with scheduling and paperwork.</p>
-										<Link href="/book-appointment" className="tf-btn style-default btn-color-secondary pd-20 mt-16"><span>Create Account</span></Link>
-									</div>
 									<div className="wg-card wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 										<h5 className="title">Existing Patients</h5>
 										<p className="text-1 lh-30">Already registered? Log in to view upcoming visits and messages.</p>
-										<Link href="/contact-us" className="tf-btn style-default btn-color-secondary pd-20 mt-16"><span>Request Portal Access</span></Link>
+										<a href="https://patientonlineportal.com/idp/account/signin?ReturnUrl=%2Fidp%2Fissue%2Fwsfed%3Fwa%3Dwsignin1.0%26wtrealm%3Dhttps%253a%252f%252fpatientonlineportal.com%252f%26wctx%3Drm%253d0%2526id%253dpassive%2526ru%253d%25252f%26wct%3D2022-06-27T19%253a08%253a33Z%26wreply%3Dhttps%253a%252f%252fpatientonlineportal.com%252f&wa=wsignin1.0&wct=2022-06-27T19%3A08%3A33Z&wctx=rm%3D0%26id%3Dpassive%26ru%3D%252f&wreply=https%3A%2F%2Fpatientonlineportal.com%2F&wtrealm=https%3A%2F%2Fpatientonlineportal.com%2F" className="tf-btn style-default btn-color-secondary pd-20 mt-16" target="_blank" rel="noopener noreferrer"><span>Request Portal Access</span></a>
 									</div>
 								</div>
 

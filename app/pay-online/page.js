@@ -45,7 +45,7 @@ export default function PayOnline() {
 								<div className="heading-section ">
 									<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Make a Payment</h3>
 									<p className="text-1 lh-30">Click below to proceed to our secure payment portal.</p>
-									<Link href="/contact-us" className="tf-btn style-default btn-color-secondary pd-28 mt-8"><span>Pay Now</span></Link>
+									<a href="https://paywoot.com/" className="tf-btn style-default btn-color-secondary pd-28 mt-8" target="_blank" rel="noopener noreferrer"><span>Pay Now</span></a>
 								</div>
 							</div>
 						</div>

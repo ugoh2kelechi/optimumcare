@@ -93,7 +93,7 @@ export default function Menu() {
 											<div className="wrap-list">
 												<div className="box-listings">
 													<div className="image-wrap">
-														<img src="/images/blog/blog-details-list-1.jpg" alt="healingy" />
+														<img src="/images/blog/blog-details-list-1.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -109,7 +109,7 @@ export default function Menu() {
 												</div>
 												<div className="box-listings">
 													<div className="image-wrap">
-														<img src="/images/blog/blog-details-list-2.jpg" alt="healingy" />
+														<img src="/images/blog/blog-details-list-2.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -125,7 +125,7 @@ export default function Menu() {
 												</div>
 												<div className="box-listings">
 													<div className="image-wrap">
-														<img src="/images/blog/blog-details-list-4.jpg" alt="healingy" />
+														<img src="/images/blog/blog-details-list-4.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -155,7 +155,7 @@ export default function Menu() {
 					<Link href="/book-appointment">Appointment Form</Link>
 				</li>
 				<li className={`has-child relative ${checkParentActive(["/accepted-insurances", "/patient-online-portal", "/pay-online"])}`}>
-					<Link href="/#">Billing</Link>
+					<Link href="/#">Resources</Link>
 					<ul className="sub-menu">
 						<li className={checkCurrentMenuItem("/accepted-insurances")}>
 							<Link href="/accepted-insurances">Accepted Insurances</Link>
@@ -165,6 +165,18 @@ export default function Menu() {
 						</li>
 						<li className={checkCurrentMenuItem("/pay-online")}>
 							<Link href="/pay-online">Pay Online</Link>
+						</li>
+						<li className={checkCurrentMenuItem("/reviews")}>
+							<Link href="/reviews">Reviews</Link>
+						</li>
+						<li className={checkCurrentMenuItem("/career")}>
+							<Link href="/career">Career</Link>
+						</li>
+						<li className={checkCurrentMenuItem("/learning-reference")}>
+							<Link href="/learning-reference">Learning Reference</Link>
+						</li>
+						<li className={checkCurrentMenuItem("/country-crisis-intervention")}>
+							<Link href="/country-crisis-intervention">Country Crisis Intervention</Link>
 						</li>
 					</ul>
 				</li>

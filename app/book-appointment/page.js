@@ -73,7 +73,7 @@ export default function BookAppointment() {
 										</button>
 									</form>
 									<div className="image-wrap">
-										<img className="lazyload" data-src="/images/section/section-book-appointment.jpg" src="/images/section/section-book-appointment.jpg" alt="healingy" />
+										<img className="lazyload" data-src="/images/section/section-book-appointment.jpg" src="/images/section/section-book-appointment.jpg" alt="occws" />
 									</div>
 								</div>
 							</div>

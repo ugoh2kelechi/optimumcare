@@ -47,7 +47,7 @@ export default function Testimonials2() {
 																	<h6 className="title ">
 																		<Link href="/therapists-details">John Smith</Link>
 																	</h6>
-																	<p>CEO THEMES FLAT</p>
+																	<p>CEO Ugoh Solutions LLC</p>
 																</div>
 																<Link href="/therapists-details" className="tf-btn-link wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 																	<span data-text="Read More Stories">Read More
@@ -80,7 +80,7 @@ export default function Testimonials2() {
 																	<h6 className="title ">
 																		<Link href="/therapists-details">John Smith</Link>
 																	</h6>
-																	<p>CEO THEMES FLAT</p>
+																	<p>CEO Ugoh Solutions LLC</p>
 																</div>
 																<Link href="/therapists-details" className="tf-btn-link">
 																	<span data-text="Read More Stories">Read More
@@ -113,7 +113,7 @@ export default function Testimonials2() {
 																	<h6 className="title ">
 																		<Link href="/therapists-details">John Smith</Link>
 																	</h6>
-																	<p>CEO THEMES FLAT</p>
+																	<p>CEO Ugoh Solutions LLC</p>
 																</div>
 																<Link href="/therapists-details" className="tf-btn-link">
 																	<span data-text="Read More Stories">Read More
@@ -133,17 +133,17 @@ export default function Testimonials2() {
 										<Swiper {...sliderTestimonialThumbs} className="swiper-wrapper">
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 											<SwiperSlide>
 												<div className="image-wrap effec-overlay">
-													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/section/testimonials-2.jpg" src="/images/section/testimonials-2.jpg" alt="occws" />
 												</div>
 											</SwiperSlide>
 										</Swiper>
@@ -159,4 +159,3 @@ export default function Testimonials2() {
 
 	)
 }
-

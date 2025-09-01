@@ -34,8 +34,41 @@ export default function Layout({ headerStyle, footerStyle, breadcrumbTitle, chil
 			setScroll(window.scrollY > 100)
 		}
 
+		const onDocClick = (e) => {
+			const anchor = e.target.closest('a')
+			if (!anchor) return
+			const href = anchor.getAttribute('href') || ''
+			// If using Bootstrap toggles (offcanvas, dropdown, etc.), prevent navigation to avoid page jumps
+			if (anchor.hasAttribute('data-bs-toggle')) {
+				e.preventDefault()
+				return
+			}
+			// Only handle hash-only navigations that can cause jump-to-top
+			if (href === '#' || href === '/#' || href === '') {
+				e.preventDefault()
+				return
+			}
+			// If the link is an in-page hash (e.g., '/#id' or '#id'), prevent default if target element does not exist
+			if (href.startsWith('#') || href.startsWith('/#')) {
+				const hash = href.split('#')[1]
+				if (!hash) {
+					e.preventDefault()
+					return
+				}
+				const target = document.getElementById(hash)
+				if (!target) {
+					e.preventDefault()
+				}
+			}
+		}
+
 		window.addEventListener("scroll", onScroll)
-		return () => window.removeEventListener("scroll", onScroll)
+		// Use capture phase so we can prevent default before React/Next.js handles the click
+		document.addEventListener('click', onDocClick, true)
+		return () => {
+			window.removeEventListener("scroll", onScroll)
+			document.removeEventListener('click', onDocClick, true)
+		}
 	}, [])
 	return (
 		<><div id="top" />

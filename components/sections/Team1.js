@@ -22,7 +22,7 @@ export default function Team1() {
 								<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 									<div className="image-wrap ">
 										<Link href="/therapists-details">
-											<img className="lazyload" data-src="/images/section/team-item-1.jpg" src="/images/section/team-item-1.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/team-item-1.jpg" src="/images/section/team-item-1.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="info">
@@ -48,7 +48,7 @@ export default function Team1() {
 								<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
 									<div className="image-wrap ">
 										<Link href="/therapists-details">
-											<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/team-item-2.jpg" src="/images/section/team-item-2.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="info">
@@ -74,7 +74,7 @@ export default function Team1() {
 								<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.2s">
 									<div className="image-wrap ">
 										<Link href="/therapists-details">
-											<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/team-item-3.jpg" src="/images/section/team-item-3.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="info">
@@ -100,7 +100,7 @@ export default function Team1() {
 								<div className="team-item hover-img wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.3s">
 									<div className="image-wrap ">
 										<Link href="/therapists-details">
-											<img className="lazyload" data-src="/images/section/team-item-4.jpg" src="/images/section/team-item-4.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/section/team-item-4.jpg" src="/images/section/team-item-4.jpg" alt="occws" />
 										</Link>
 									</div>
 									<div className="info">
@@ -133,4 +133,3 @@ export default function Team1() {
 
 	)
 }
-

@@ -16,7 +16,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -38,7 +38,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-2.jpg" src="/images/blog/blog-2.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-2.jpg" src="/images/blog/blog-2.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -60,7 +60,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -82,7 +82,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -104,7 +104,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-5.jpg" src="/images/blog/blog-5.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-5.jpg" src="/images/blog/blog-5.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -126,7 +126,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-6.jpg" src="/images/blog/blog-6.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-6.jpg" src="/images/blog/blog-6.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -148,7 +148,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-7.jpg" src="/images/blog/blog-7.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-7.jpg" src="/images/blog/blog-7.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -170,7 +170,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-8.jpg" src="/images/blog/blog-8.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-8.jpg" src="/images/blog/blog-8.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">
@@ -192,7 +192,7 @@ export default function BlogGrid() {
 										<div className="article-blog-item  hover-img ">
 											<div className="image-wrap">
 												<Link href="/details">
-													<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
+													<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="occws" />
 												</Link>
 												<div className="date-time">
 													<div className="content">

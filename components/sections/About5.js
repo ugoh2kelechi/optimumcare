@@ -11,21 +11,21 @@ export default function About5() {
 						<div className="row ">
 							<div className="col-md-6">
 								<div className="image-wrap  wow fadeInLeft effec-overlay" data-wow-duration={1000} data-wow-delay="0s">
-									<img className="lazyload" data-src="/images/section/section-about.jpg" src="/images/section/section-about.jpg" alt="healingy" />
+									<img className="lazyload" data-src="/images/section/section-about.jpg" src="/images/section/section-about.jpg" alt="occws" />
 								</div>
 							</div>
 							<div className="col-md-6 ">
 								<div className="box-about">
 									<div className="icon  wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-										<img src="/images/item/favicon.png" alt="healingy" />
+										<img src="/images/item/favicon.png" alt="occws" />
 									</div>
 									<div className="heading-section text-start  wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
 										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-											About Healingy</p>
+											About Optimum Care Counseling and Wellness Solutions</p>
 										<h3>Trusted professionals dedicated to your mental well-being
 										</h3>
 										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">With a team of licensed therapists and a
-											personalized approach to mental health, Healingy provides you with the tools
+											personalized approach to mental health, Optimum Care Counseling and Wellness Solutions provides you with the tools
 											and support to overcome life's challenges. We believe in empowering every
 											individual to find balance, healing, and growth
 										</p>

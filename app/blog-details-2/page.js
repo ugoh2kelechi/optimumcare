@@ -22,7 +22,7 @@ export default function BlogDetails2() {
 						</div>
 					</div>
 					<div className="image-wrap">
-						<img className="lazyload" data-src="/images/page-title/page-title-blog-details.jpg" src="/images/page-title/page-title-blog-details.jpg" alt="healingy" />
+						<img className="lazyload" data-src="/images/page-title/page-title-blog-details.jpg" src="/images/page-title/page-title-blog-details.jpg" alt="occws" />
 					</div>
 				</div>
 
@@ -65,10 +65,10 @@ export default function BlogDetails2() {
 									</div>
 									<div className="group-image">
 										<div className="image-wrap">
-											<img className="lazyload" data-src="/images/blog/blog-details-3.jpg" src="/images/blog/blog-details-3.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/blog/blog-details-3.jpg" src="/images/blog/blog-details-3.jpg" alt="occws" />
 										</div>
 										<div className="image-wrap">
-											<img className="lazyload" data-src="/images/blog/blog-details-2.jpg" src="/images/blog/blog-details-2.jpg" alt="healingy" />
+											<img className="lazyload" data-src="/images/blog/blog-details-2.jpg" src="/images/blog/blog-details-2.jpg" alt="occws" />
 										</div>
 									</div>
 									<h4 className="mb-16">How To Deal With Employee Quitting</h4>
@@ -215,7 +215,7 @@ export default function BlogDetails2() {
 											<div className="comment-blog">
 												<div className="author">
 													<div className="avatar">
-														<img src="/images/avatar/avatar-1.jpg" alt="healingy" />
+														<img src="/images/avatar/avatar-1.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -250,7 +250,7 @@ export default function BlogDetails2() {
 													<div className="comment-blog">
 														<div className="author">
 															<div className="avatar">
-																<img src="/images/avatar/avatar-2.jpg" alt="healingy" />
+																<img src="/images/avatar/avatar-2.jpg" alt="occws" />
 															</div>
 															<div className="content">
 																<ul className="meta">
@@ -289,7 +289,7 @@ export default function BlogDetails2() {
 											<div className="comment-blog">
 												<div className="author">
 													<div className="avatar">
-														<img src="/images/avatar/avatar-3.jpg" alt="healingy" />
+														<img src="/images/avatar/avatar-3.jpg" alt="occws" />
 													</div>
 													<div className="content">
 														<ul className="meta">
@@ -437,7 +437,7 @@ export default function BlogDetails2() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -463,7 +463,7 @@ export default function BlogDetails2() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -488,7 +488,7 @@ export default function BlogDetails2() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -513,7 +513,7 @@ export default function BlogDetails2() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-1.jpg" src="/images/blog/blog-1.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -539,7 +539,7 @@ export default function BlogDetails2() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-3.jpg" src="/images/blog/blog-3.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">
@@ -564,7 +564,7 @@ export default function BlogDetails2() {
 											<div className="article-blog-item  hover-img ">
 												<div className="image-wrap">
 													<Link href="/blog-details">
-														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="healingy" />
+														<img className="lazyload" data-src="/images/blog/blog-4.jpg" src="/images/blog/blog-4.jpg" alt="occws" />
 													</Link>
 													<div className="date-time">
 														<div className="content">

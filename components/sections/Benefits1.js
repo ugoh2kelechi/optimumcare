@@ -11,7 +11,7 @@ export default function Benefits1() {
 							<div className="box-benefits">
 								<div className="heading-section text-start">
 									<p className="text-2 sub wow fadeInUp" data-wow-duration={1000}>Why Choose Us</p>
-									<h3 className="wow fadeInUp" data-wow-duration={1000}>Benefits of Choosing Healingy</h3>
+									<h3 className="wow fadeInUp" data-wow-duration={1000}>Benefits of Choosing Optimum Care Counseling and Wellness Solutions</h3>
 									<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000}>We are
 										deeply committed to bringing positive,
 										meaningful, and lasting change to your life, empowering you to thrive &amp; achieve
@@ -44,7 +44,7 @@ export default function Benefits1() {
 						</div>
 						<div className="col-md-6 ">
 							<div className="image-wrap wow fadeInRight effec-overlay" data-wow-duration={1000}>
-								<img className="lazyload" data-src="/images/section/section-benefit.jpg" src="/images/section/section-benefit.jpg" alt="healingy" />
+								<img className="lazyload" data-src="/images/section/section-benefit.jpg" src="/images/section/section-benefit.jpg" alt="occws" />
 							</div>
 						</div>
 					</div>
@@ -54,4 +54,3 @@ export default function Benefits1() {
 		</>
 	)
 }
-

@@ -123,7 +123,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
 						<div className="header-left">
 							<div className="header-logo">
 								<Link href="/" className="site-logo">
-									<img id="logo_header" alt="healingy" src="/images/logo/logo1.png" data-retina="images/logo/logo@2x.png" />
+									<img id="logo_header" alt="occws" src="/images/logo/logo1.png" data-retina="images/logo/logo@2x.png" />
 								</Link>
 							</div>
 							<nav className="main-menu">

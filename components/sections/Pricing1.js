@@ -44,7 +44,7 @@ export default function Pricing1() {
 										<span>Book Session</span>
 									</Link>
 									<div className="item">
-										<img src="/images/item/pricing-item.png" alt="healingy" />
+										<img src="/images/item/pricing-item.png" alt="occws" />
 									</div>
 								</div>
 								<div className="pricing-item wow fadeInUp" data-wow-duration={1000} data-wow-delay="0.1s">
@@ -74,7 +74,7 @@ export default function Pricing1() {
 										<span>Book Session</span>
 									</Link>
 									<div className="item">
-										<img src="/images/item/pricing-item.png" alt="healingy" />
+										<img src="/images/item/pricing-item.png" alt="occws" />
 									</div>
 									<div className="sale-off">
 										<p className="text-2">50% Off Now</p>
@@ -105,7 +105,7 @@ export default function Pricing1() {
 										<span>Book Session</span>
 									</Link>
 									<div className="item">
-										<img src="/images/item/pricing-item.png" alt="healingy" />
+										<img src="/images/item/pricing-item.png" alt="occws" />
 									</div>
 								</div>
 							</div>
@@ -118,4 +118,3 @@ export default function Pricing1() {
 
 	)
 }
-
