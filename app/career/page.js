@@ -124,6 +124,12 @@ export default function CareerPage() {
 									</div>
 								</div>
 
+								<div className="section-video tf-spacing-5">
+									<div className="video-embed">
+										<iframe src="https://www.youtube.com/embed/tSpmJtLo8SU" width="100%" height="500" title="Career Overview" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen />
+									</div>
+								</div>
+
 								<div className="heading-section text-center mt-40">
 									<p className="description text-1 lh-30">If you are interested in applying, please reach out to <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link>, and include your resume in your email to us!</p>
 									<Link className="tf-btn style-default btn-color-secondary pd-40" href="mailto:servicerequests@optimumcarecounseling.com?subject=Career%20Application%20-%20Optimum%20Care%20Counseling"><span>Apply via Email</span></Link>
