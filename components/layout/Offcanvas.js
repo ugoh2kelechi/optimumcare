@@ -122,35 +122,10 @@ export default function OffcanvasMobileMenu() {
 							</div>
 						</li>
 
-						<li
-							className={`menu-item menu-item-has-children-mobile ${checkParentActive([
-								'/blog-grid',
-								'/blog-details',
-								'/blog-details-2',
-							])}`}
-						>
-							<Link
-								href="/#dropdown-menu-four"
-								className="item-menu-mobile collapsed"
-								data-bs-toggle="collapse"
-								aria-expanded="true"
-								aria-controls="dropdown-menu-four"
-							>
-								Blogs
+						<li className={`menu-item ${pathname.startsWith('/blog') ? 'current-item' : ''}`}>
+							<Link href="/blog-grid" className="item-menu-mobile" onClick={closeOffcanvas}>
+								News & Blog
 							</Link>
-							<div id="dropdown-menu-four" className="collapse" data-bs-parent="#menu-mobile-menu">
-								<ul className="sub-mobile">
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-grid')}`}>
-										<Link href="/blog-grid" onClick={closeOffcanvas}>Blog Grid</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-details')}`}>
-										<Link href="/blog-details" onClick={closeOffcanvas}>Blog Details 1</Link>
-									</li>
-									<li className={`menu-item ${checkCurrentMenuItem('/blog-details-2')}`}>
-										<Link href="/blog-details-2" onClick={closeOffcanvas}>Blog Details 2</Link>
-									</li>
-								</ul>
-							</div>
 						</li>
 
 						<li className={`menu-item ${checkCurrentMenuItem('/contact-us')}`}>
