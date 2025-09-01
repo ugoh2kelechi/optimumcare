@@ -351,17 +351,17 @@ export default function ShopCheckOut() {
 																/>
 																<ul className="list-payment">
 																	<li>
-																		<img src="/images/item/payment-1.png" alt="healingy" />
+																		<img src="/images/item/payment-1.png" alt="occws" />
 																	</li>
 																	<li>
-																		<img src="/images/item/payment-2.png" alt="healingy" />
+																		<img src="/images/item/payment-2.png" alt="occws" />
 																	</li>
 																	<li>
 																		{" "}
-																		<img src="/images/item/payment-3.png" alt="healingy" />
+																		<img src="/images/item/payment-3.png" alt="occws" />
 																	</li>
 																	<li>
-																		<img src="/images/item/payment-4.png" alt="healingy" />
+																		<img src="/images/item/payment-4.png" alt="occws" />
 																	</li>
 																</ul>
 															</fieldset>
@@ -438,7 +438,7 @@ export default function ShopCheckOut() {
 															onChange={() => { }}
 														/>
 														<span className="btn-radio" />
-														<img src="/images/item/payment-5.png" alt="healingy" />
+														<img src="/images/item/payment-5.png" alt="occws" />
 													</label>
 												</div>
 												{activeAccordion === "paypal" && (
@@ -469,17 +469,17 @@ export default function ShopCheckOut() {
 																/>
 																<ul className="list-payment">
 																	<li>
-																		<img src="/images/item/payment-1.png" alt="healingy" />
+																		<img src="/images/item/payment-1.png" alt="occws" />
 																	</li>
 																	<li>
-																		<img src="/images/item/payment-2.png" alt="healingy" />
+																		<img src="/images/item/payment-2.png" alt="occws" />
 																	</li>
 																	<li>
 																		{" "}
-																		<img src="/images/item/payment-3.png" alt="healingy" />
+																		<img src="/images/item/payment-3.png" alt="occws" />
 																	</li>
 																	<li>
-																		<img src="/images/item/payment-4.png" alt="healingy" />
+																		<img src="/images/item/payment-4.png" alt="occws" />
 																	</li>
 																</ul>
 															</fieldset>
@@ -533,7 +533,7 @@ export default function ShopCheckOut() {
 															onChange={() => { }}
 														/>
 														<span className="btn-radio" />
-														<img src="/images/item/payment-6.png" alt="healingy" />
+														<img src="/images/item/payment-6.png" alt="occws" />
 													</label>
 												</div>
 												{activeAccordion === "googlePay" && (
@@ -564,17 +564,17 @@ export default function ShopCheckOut() {
 																/>
 																<ul className="list-payment">
 																	<li>
-																		<img src="/images/item/payment-1.png" alt="healingy" />
+																		<img src="/images/item/payment-1.png" alt="occws" />
 																	</li>
 																	<li>
-																		<img src="/images/item/payment-2.png" alt="healingy" />
+																		<img src="/images/item/payment-2.png" alt="occws" />
 																	</li>
 																	<li>
 																		{" "}
-																		<img src="/images/item/payment-3.png" alt="healingy" />
+																		<img src="/images/item/payment-3.png" alt="occws" />
 																	</li>
 																	<li>
-																		<img src="/images/item/payment-4.png" alt="healingy" />
+																		<img src="/images/item/payment-4.png" alt="occws" />
 																	</li>
 																</ul>
 															</fieldset>
@@ -632,7 +632,7 @@ export default function ShopCheckOut() {
 																	className=" ls-is-cached lazyloaded"
 																	data-src="/images/section/shop-cart-item-2.jpg"
 																	src="/images/section/shop-cart-item-2.jpg"
-																	alt="healingy"
+																	alt="occws"
 																/>
 															</Link>
 														</div>
@@ -652,7 +652,7 @@ export default function ShopCheckOut() {
 																	className=" ls-is-cached lazyloaded"
 																	data-src="/images/section/shop-cart-item-1.jpg"
 																	src="/images/section/shop-cart-item-1.jpg"
-																	alt="healingy"
+																	alt="occws"
 																/>
 															</Link>
 														</div>
@@ -672,7 +672,7 @@ export default function ShopCheckOut() {
 																	className=" ls-is-cached lazyloaded"
 																	data-src="/images/section/shop-cart-item-3.jpg"
 																	src="/images/section/shop-cart-item-3.jpg"
-																	alt="healingy"
+																	alt="occws"
 																/>
 															</Link>
 														</div>
@@ -739,4 +739,3 @@ export default function ShopCheckOut() {
 		</>
 	)
 }
-
