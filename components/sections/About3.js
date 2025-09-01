@@ -20,7 +20,7 @@ export default function About3() {
 										<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Trusted
 											professionals dedicated to your mental
 										</h3>
-										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Healingy is a reputable center for
+										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Optimum Care Counseling and Wellness Solutions is a reputable center for
 											counseling and
 											psychological therapy, with a team of experienced professionals ready to
 											listen and support you. We believe that everyone has the ability to heal and
