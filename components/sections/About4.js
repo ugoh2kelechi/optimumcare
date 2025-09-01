@@ -11,18 +11,18 @@ export default function About4() {
 						<div className="row">
 							<div className="col-md-6">
 								<div className="image-wrap wow fadeInLeft effec-overlay" data-wow-duration={1000} data-wow-delay="0s">
-									<img className="lazyload" data-src="/images/section/section-about-2.jpg" src="/images/section/section-about-2.jpg" alt="healingy" />
+									<img className="lazyload" data-src="/images/section/section-about-2.jpg" src="/images/section/section-about-2.jpg" alt="occws" />
 								</div>
 							</div>
 							<div className="col-md-6 ">
 								<div className="box-about">
 									<div className="heading-section text-start ">
 										<p className="text-2 sub wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">
-											About Healingy</p>
+											About Optimum Care Counseling and Wellness Solutions</p>
 										<h3 className="wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Trusted
 											professionals dedicated to your mental
 										</h3>
-										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Healingy is a reputable center for
+										<p className="description text-1 lh-30 wow fadeInUp" data-wow-duration={1000} data-wow-delay="0s">Optimum Care Counseling and Wellness Solutions is a reputable center for
 											counseling and
 											psychological therapy, with a team of experienced professionals ready to
 											listen and support you.
@@ -74,4 +74,3 @@ export default function About4() {
 
 	)
 }
-
