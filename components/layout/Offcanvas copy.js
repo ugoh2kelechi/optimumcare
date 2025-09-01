@@ -100,7 +100,7 @@ export default function OffcanvasMobileMenu({ isMobileMenu, handleMobileMenu }) 
 								aria-expanded="true"
 								aria-controls="dropdown-menu-three"
 							>
-								Pages
+								Billing
 							</a>
 							<div id="dropdown-menu-three" className={`collapse ${isAccordion === 3 ? 'show' : ''}`} data-bs-parent="#menu-mobile-menu">
 								<ul className="sub-mobile">
