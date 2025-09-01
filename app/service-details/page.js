@@ -267,9 +267,9 @@ export default function ServiceDetails() {
 										<div className="info">
 											<h5>Infomation</h5>
 											<ul className="list-info">
-												<li><i className="icon-Envelope" /> <Link href="/#">themesflat@gmail.com</Link></li>
-												<li><i className="icon-PhoneCall" />1-333-345-6868</li>
-												<li><i className="icon-MapPin" />101 E 129th St, East Chicago, IN 46312, US
+												<li><i className="icon-Envelope" /> <Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link></li>
+												<li><i className="icon-PhoneCall" />(610) 670-8800</li>
+												<li><i className="icon-MapPin" />1011 Brookside Road Suite 304 Allentown, PA 18106, US
 												</li>
 											</ul>
 										</div>
