@@ -16,9 +16,6 @@ export default function Menu() {
 				<li className={`item ${pathname === "/" || pathname === "/home" ? "current-menu-item" : ""}`}>
 					<Link href="/">Home</Link>
 				</li>
-				<li className={`item ${pathname === "/about" ? "current-menu-item" : ""}`}>
-					<Link href="/about">About</Link>
-				</li>
 				<li className={`item ${pathname === "/book-appointment" ? "current-menu-item" : ""}`}>
 					<Link href="/book-appointment">Appointment Form</Link>
 				</li>
@@ -153,6 +150,9 @@ export default function Menu() {
 						</div>
 					</div>
 
+				</li>
+				<li className={`item ${pathname === "/about" ? "current-menu-item" : ""}`}>
+					<Link href="/about">About</Link>
 				</li>
 				<li className={`has-child relative ${checkParentActive(["/accepted-insurances", "/patient-online-portal", "/pay-online", "/our-therapists"])}`}>
 					<Link href="/#">Billing</Link>
