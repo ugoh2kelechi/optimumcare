@@ -21,7 +21,7 @@ export default function About() {
 									</p>
 								</div>
 
-								<div className="about-welcome bg-1 p-24 br-12">
+								<div className="about-welcome bg-1">
 									<h5 className="mb-16">Welcome To Optimum Care</h5>
 									<p className="text-1 lh-30 mb-16">The greatest gift you can give yourself is the freedom to be yourself.</p>
 									<p className="text-1 lh-30 mb-24">Therapy is not about escaping your problems, it’s about learning to navigate them.</p>
