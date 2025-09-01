@@ -9,10 +9,10 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
 				<div className="wrap-top-bar">
 					<div className="top-bar-left">
 						<ul className="top-info">
-							<li className="text-2"> <i className="icon-MapPin" />101 E 129th St, East Chicago, IN 46312, US</li>
+							<li className="text-2"> <i className="icon-MapPin" />1011 Brookside Road Suite 304 Allentown, PA 18106, US</li>
 							<li className="text-2">
 								<i className="icon-Envelope
-                      " /><Link href="/#">themesflat@gmail.com</Link>
+                      " /><Link href="mailto:servicerequests@optimumcarecounseling.com">servicerequests@optimumcarecounseling.com</Link>
 							</li>
 						</ul>
 						<div className=" tf-dropdown-sort tf-languages" data-bs-toggle="dropdown">
@@ -31,7 +31,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
 					</div>
 					<div className="top-bar-right">
 						<ul className="list">
-							<li><i className="icon-PhoneCall" />1-555-678-8888</li>
+							<li><i className="icon-PhoneCall" />(610) 670-8800</li>
 							<li>
 								<ul className="tf-social style-1">
 									<li><Link href="/#">
